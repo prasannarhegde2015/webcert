@@ -4,28 +4,32 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Matchers.eq;
-import static org.mockito.Mockito.doThrow;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.verifyZeroInteractions;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.io.IOUtils;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Spy;
 import org.mockito.runners.MockitoJUnitRunner;
 
+import org.springframework.core.io.ClassPathResource;
 import se.inera.certificate.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientResponseType;
 import se.inera.certificate.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientType;
 import se.inera.certificate.clinicalprocess.healthcond.certificate.utils.ResultTypeUtil;
 import se.inera.certificate.clinicalprocess.healthcond.certificate.v1.ErrorIdType;
+import se.inera.certificate.integration.json.CustomObjectMapper;
 import se.inera.webcert.hsa.model.WebCertUser;
 import se.inera.webcert.persistence.utkast.model.Omsandning;
 import se.inera.webcert.persistence.utkast.model.OmsandningOperation;
+import se.inera.webcert.persistence.utkast.model.Utkast;
 import se.inera.webcert.service.exception.WebCertServiceException;
 import se.inera.webcert.service.intyg.dto.IntygServiceResult;
 import se.inera.webcert.service.log.dto.LogRequest;
+
+import java.io.IOException;
 
 @RunWith(MockitoJUnitRunner.class)
 public class IntygServiceSendTest extends AbstractIntygServiceTest {
@@ -45,6 +49,8 @@ public class IntygServiceSendTest extends AbstractIntygServiceTest {
         when(sendService.sendCertificateToRecipient(anyString(), any(SendCertificateToRecipientType.class)))
                 .thenReturn(response);
 
+        when(intygRepository.findOne(INTYG_ID)).thenReturn(getUtkast(INTYG_ID));
+
         IntygServiceResult res = intygService.sendIntyg(INTYG_ID, INTYG_TYP_FK, "FK", true);
         assertEquals(IntygServiceResult.OK, res);
 
@@ -52,6 +58,9 @@ public class IntygServiceSendTest extends AbstractIntygServiceTest {
         verify(omsandningRepository).delete(any(Omsandning.class));
         verify(logService).logSendIntygToRecipient(any(LogRequest.class));
         verify(sendService).sendCertificateToRecipient(anyString(), any(SendCertificateToRecipientType.class));
+
+        verify(intygRepository, times(2)).findOne(INTYG_ID);
+        verify(intygRepository).save(any(Utkast.class));
     }
 
     @Test
@@ -63,6 +72,7 @@ public class IntygServiceSendTest extends AbstractIntygServiceTest {
 
         when(sendService.sendCertificateToRecipient(anyString(), any(SendCertificateToRecipientType.class)))
                 .thenReturn(response);
+        when(intygRepository.findOne(INTYG_ID)).thenReturn(getUtkast(INTYG_ID));
 
         IntygServiceResult res = intygService.sendIntyg(INTYG_ID, INTYG_TYP_FK, "FK", true);
         assertEquals(IntygServiceResult.OK, res);
@@ -71,6 +81,17 @@ public class IntygServiceSendTest extends AbstractIntygServiceTest {
         verify(omsandningRepository).delete(any(Omsandning.class));
         verify(logService).logSendIntygToRecipient(any(LogRequest.class));
         verify(sendService).sendCertificateToRecipient(anyString(), any(SendCertificateToRecipientType.class));
+        verify(intygRepository, times(2)).findOne(INTYG_ID);
+        verify(intygRepository).save(any(Utkast.class));
+    }
+
+    private Utkast getUtkast(String intygId) throws IOException {
+        Utkast utkast = new Utkast();
+        String json = IOUtils.toString(new ClassPathResource(
+                "FragaSvarServiceImplTest/utlatande.json").getInputStream(), "UTF-8");
+        utkast.setModel(json);
+        utkast.setIntygsId(intygId);
+        return utkast;
     }
 
     @Test
@@ -89,6 +110,7 @@ public class IntygServiceSendTest extends AbstractIntygServiceTest {
         assertEquals(IntygServiceResult.RESCHEDULED, res);
 
         verify(omsandningRepository, times(2)).save(any(Omsandning.class));
+        verify(intygRepository, times(0)).save(any(Utkast.class));
     }
 
     @Test
@@ -108,6 +130,7 @@ public class IntygServiceSendTest extends AbstractIntygServiceTest {
         }
         
         verify(omsandningRepository, times(2)).save(any(Omsandning.class));
+        verify(intygRepository, times(0)).save(any(Utkast.class));
     }
     
     @Test
@@ -131,6 +154,7 @@ public class IntygServiceSendTest extends AbstractIntygServiceTest {
         }
         
         verifyZeroInteractions(omsandningRepository);
+        verify(intygRepository, times(0)).save(any(Utkast.class));
     }
 
 }

@@ -8,6 +8,7 @@ import se.inera.webcert.pages.ts_bas.VisaTsBasPage
 import se.inera.webcert.pages.ts_diabetes.EditCertPage
 import se.inera.webcert.pages.ts_diabetes.VisaTsDiabetesPage
 import org.openqa.selenium.Keys
+import se.inera.webcert.spec.util.WebcertRestUtils
 
 class SokSkrivIntyg {
 
@@ -199,6 +200,15 @@ class SokSkrivIntyg {
         }
     }
 
+    boolean redigeraUtkastSidanVisas() {
+        Browser.drive {
+            waitFor {
+                at se.inera.webcert.pages.fk7263.EditCertPage
+            }
+        }
+        true
+    }
+
     def kanEjMakuleraVisatIntyg() {
         Browser.drive {
             page.kanInteMakulera()
@@ -225,7 +235,11 @@ class SokSkrivIntyg {
     }
 
     def visaIntyg(String intygId) {
+
         Browser.drive {
+            waitFor {
+                at SokSkrivValjIntygTypPage
+            }
             waitFor {
                 page.intygLista.isDisplayed()
             }
@@ -314,6 +328,25 @@ class SokSkrivIntyg {
         true
     }
 
+    boolean felmeddelanderutaVisas(boolean expected = true) {
+        Browser.drive {
+            waitFor {
+                at SokSkrivValjIntygTypPage
+            }
+            waitFor {
+                expected == page.felmeddelandeRuta.isDisplayed()
+            }
+        }
+    }
+
+    def intygstjanstStubOnline() {
+        WebcertRestUtils.setIntygTjanstStubInMode("ONLINE")
+    }
+
+    def intygstjanstStubOffline() {
+        WebcertRestUtils.setIntygTjanstStubInMode("OFFLINE")
+    }
+
     def valjVardenhet(String careUnit) {
         Browser.drive {
             waitFor {
@@ -325,6 +358,78 @@ class SokSkrivIntyg {
             waitFor {
                 page.selectCareUnit(careUnit);
             }
+        }
+    }
+
+    def skickaVisatIntygTillForsakringskassan() {
+        Browser.drive {
+            waitFor {
+                at VisaFk7263Page
+            }
+            waitFor {
+                page.send()
+            }
+        }
+    }
+
+    boolean intygSkickatTillForsakringskassan(boolean expected = true) {
+        Browser.drive {
+            waitFor {
+                at VisaFk7263Page
+            }
+            waitFor {
+                expected == page.certificateIsSentToRecipientMessage.isDisplayed()
+            }
+        }
+        true
+    }
+
+    def stallNyFragaTillForsakringskassan() {
+        Browser.drive {
+            waitFor {
+                at VisaFk7263Page
+            }
+            waitFor {
+                page.stallNyFragaTillForsakringskassan()
+            }
+            waitFor {
+                page.nyFragaTillForsakringskassanFormularVisas()
+            }
+        }
+    }
+
+    boolean nyFragaFormularVisas(boolean expected = true) {
+        Browser.drive {
+            waitFor {
+                at VisaFk7263Page
+            }
+            waitFor {
+                expected == page.nyFragaTillForsakringskassanFormularVisas()
+            }
+        }
+        true
+    }
+
+    def fyllOchSkickaFragaTillForsakringskassan() {
+        Browser.drive {
+            waitFor {
+                at VisaFk7263Page
+            }
+            waitFor {
+                page.fillNyFragaFormular()
+            }
+        }
+    }
+
+    boolean nyFragaSkickadBekraftelseVisas(boolean expected = true) {
+        Browser.drive {
+            waitFor {
+                at VisaFk7263Page
+            }
+            waitFor {
+                expected == page.nyFragaSkickadTextVisas()
+            }
+            true
         }
     }
 }

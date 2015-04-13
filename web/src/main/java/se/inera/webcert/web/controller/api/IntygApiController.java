@@ -30,6 +30,7 @@ import se.inera.webcert.service.exception.WebCertServiceException;
 import se.inera.webcert.service.feature.WebcertFeature;
 import se.inera.webcert.service.intyg.IntygService;
 import se.inera.webcert.service.intyg.dto.IntygItem;
+import se.inera.webcert.service.intyg.dto.IntygItemListResponse;
 import se.inera.webcert.service.utkast.CopyUtkastService;
 import se.inera.webcert.service.utkast.UtkastService;
 import se.inera.webcert.service.utkast.dto.CreateNewDraftCopyRequest;
@@ -52,6 +53,9 @@ public class IntygApiController extends AbstractApiController {
 
     private static final List<UtkastStatus> ALL_DRAFTS = Arrays.asList(UtkastStatus.DRAFT_COMPLETE,
             UtkastStatus.DRAFT_INCOMPLETE);
+
+    // TODO Where to put this stuff?
+    private static final String OFFLINE_MODE = "offline_mode";
 
     @Autowired
     private IntygService intygService;
@@ -148,8 +152,8 @@ public class IntygApiController extends AbstractApiController {
             return Response.status(Status.BAD_REQUEST).build();
         }
 
-        List<IntygItem> intygList = intygService.listIntyg(enhetsIds, personNummer);
-        LOG.debug("Got {} intyg", intygList.size());
+        IntygItemListResponse intygItemListResponse = intygService.listIntyg(enhetsIds, personNummer);
+        LOG.debug("Got {} intyg", intygItemListResponse.getIntygItemList().size());
 
         List<Utkast> utkastList;
 
@@ -161,9 +165,13 @@ public class IntygApiController extends AbstractApiController {
             utkastList = Collections.emptyList();
         }
 
-        List<ListIntygEntry> allIntyg = IntygDraftsConverter.merge(intygList, utkastList);
+        List<ListIntygEntry> allIntyg = IntygDraftsConverter.merge(intygItemListResponse.getIntygItemList(), utkastList);
 
-        return Response.ok(allIntyg).build();
+        Response.ResponseBuilder responseBuilder = Response.ok(allIntyg);
+        if (intygItemListResponse.isOfflineMode()) {
+            responseBuilder = responseBuilder.header(OFFLINE_MODE, "true");
+        }
+        return responseBuilder.build();
     }
 
     /**

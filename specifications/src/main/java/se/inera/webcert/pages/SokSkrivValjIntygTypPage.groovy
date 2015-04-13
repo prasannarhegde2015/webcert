@@ -13,6 +13,7 @@ class SokSkrivValjIntygTypPage extends AbstractPage {
         intygLista { $("#intygLista") }
         kopieraDialogKopieraKnapp { $("#button1copy-dialog") }
         fortsattKnapp { $("#intygTypeFortsatt") }
+        felmeddelandeRuta { $("#current-list-noResults-error")}
     }
 
     def copyBtn(String intygId) {

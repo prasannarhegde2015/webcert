@@ -1,13 +1,6 @@
 package se.inera.webcert.service.fragasvar;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
+import java.util.*;
 
 import javax.xml.ws.soap.SOAPFaultException;
 
@@ -37,11 +30,7 @@ import se.inera.webcert.converter.FKAnswerConverter;
 import se.inera.webcert.converter.FKQuestionConverter;
 import se.inera.webcert.converter.FragaSvarConverter;
 import se.inera.webcert.hsa.model.WebCertUser;
-import se.inera.webcert.persistence.fragasvar.model.Amne;
-import se.inera.webcert.persistence.fragasvar.model.FragaSvar;
-import se.inera.webcert.persistence.fragasvar.model.IntygsReferens;
-import se.inera.webcert.persistence.fragasvar.model.Status;
-import se.inera.webcert.persistence.fragasvar.model.Vardperson;
+import se.inera.webcert.persistence.fragasvar.model.*;
 import se.inera.webcert.persistence.fragasvar.repository.FragaSvarFilter;
 import se.inera.webcert.persistence.fragasvar.repository.FragaSvarRepository;
 import se.inera.webcert.persistence.fragasvar.repository.VantarPa;
@@ -57,6 +46,8 @@ import se.inera.webcert.service.intyg.dto.IntygContentHolder;
 import se.inera.webcert.service.notification.NotificationService;
 import se.inera.webcert.service.util.FragaSvarSenasteHandelseDatumComparator;
 import se.inera.webcert.web.service.WebCertUserService;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * @author andreaskaltenbach
@@ -114,6 +105,9 @@ public class FragaSvarServiceImpl implements FragaSvarService {
 
     @Autowired
     private NotificationService notificationService;
+
+    @Autowired
+    private ObjectMapper objectMapper;
 
     /* --------------------- Public scope --------------------- */
 
@@ -363,6 +357,7 @@ public class FragaSvarServiceImpl implements FragaSvarService {
         return saved;
     }
 
+
     @Override
     public FragaSvar setDispatchState(Long frageSvarId, Boolean isDispatched) {
         // Look up entity in repository
@@ -445,7 +440,7 @@ public class FragaSvarServiceImpl implements FragaSvarService {
             sendNotification(openedFragaSvar, notificationEvent);
         }
 
-        return openedFragaSvar;        
+        return openedFragaSvar;
     }
 
     @Override
@@ -663,5 +658,4 @@ public class FragaSvarServiceImpl implements FragaSvarService {
                     + "' stödjer ej fragasvar.");
         }
     }
-
 }

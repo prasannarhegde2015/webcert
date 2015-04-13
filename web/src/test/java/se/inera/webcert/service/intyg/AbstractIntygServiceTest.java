@@ -7,6 +7,7 @@ import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.cxf.helpers.FileUtils;
 import org.junit.Before;
 import org.mockito.InjectMocks;
@@ -37,6 +38,7 @@ import se.inera.webcert.service.intyg.converter.IntygServiceConverterImpl;
 import se.inera.webcert.service.log.LogService;
 import se.inera.webcert.service.notification.NotificationService;
 import se.inera.webcert.service.signatur.SignaturServiceImpl;
+import se.inera.webcert.service.utkast.UtkastService;
 import se.inera.webcert.web.service.WebCertUserService;
 
 public abstract class AbstractIntygServiceTest {
@@ -124,5 +126,11 @@ public abstract class AbstractIntygServiceTest {
                 return (Omsandning) invocation.getArguments()[0];
             }
         });
+    }
+
+    @Before
+    public void setupObjectMapperForConverter() {
+        // TODO Ask around, must be a cleaner way to inject stuff into a spied object?
+        ((IntygServiceConverterImpl) serviceConverter).setObjectMapper(new CustomObjectMapper());
     }
 }

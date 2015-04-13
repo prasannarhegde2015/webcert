@@ -15,6 +15,7 @@ import se.inera.certificate.clinicalprocess.healthcond.certificate.v1.Certificat
 
 
 import com.google.common.collect.Iterables;
+import se.inera.webcert.intygstjanststub.mode.StubModeAware;
 
 /**
  * @author marced
@@ -25,15 +26,18 @@ public class IntygStore {
 
     private Map<String, GetCertificateForCareResponseType> intyg = new ConcurrentHashMap<>();
 
+    @StubModeAware
     public void addIntyg(GetCertificateForCareResponseType request) {
         LOG.debug("IntygStore: added intyg " + request.getMeta().getCertificateId() + " to store.");
         intyg.put(request.getMeta().getCertificateId(), request);
     }
 
+    @StubModeAware
     public Map<String, GetCertificateForCareResponseType> getAllIntyg() {
         return intyg;
     }
 
+    @StubModeAware
     public Iterable<CertificateMetaType> getIntygForEnhetAndPersonnummer(final List<String> enhetsIds,
             final String personnummer) {
         Iterable<GetCertificateForCareResponseType> filtered = Iterables.filter(intyg.values(),
