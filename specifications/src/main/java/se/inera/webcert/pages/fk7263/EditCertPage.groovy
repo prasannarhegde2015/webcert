@@ -58,12 +58,18 @@ class EditCertPage extends AbstractPage {
         valideringVardperson(required: false)            { $("#validationMessages_vardperson") }
 
     }
+
+    def setSmittskyddCheckBox(val){
+        println("setSmittSkydCheckBox");
+        AbstractPage.scrollIntoView(smittskydd.attr("id"));
+        smittskydd.value(val);
+    }
 }
 
 class BaserasPaModule extends Module {
     static base = { $("#intygetbaseraspa") }
     static content = {
-        undersokning { $("input", type:'checkbox', id:"basedOnExamination") }
+        undersokning { $("#basedOnExamination") }
         undersokningDatum { $("#undersokningAvPatientenDate") }
         undersokningDatumToggle { $("#undersokningAvPatientenDate-toggle") }
         telefonkontakt { $("#basedOnPhoneContact") }
@@ -73,6 +79,26 @@ class BaserasPaModule extends Module {
         other { $("#basedOnOther") }
         otherDatum { $("#annanReferensDate") }
         otherText { $("#informationBasedOnOtherText") }
+    }
+
+    def setUndersokningCheckBox(value){
+        AbstractPage.scrollIntoView(undersokning.attr("id"));
+        undersokning = value;
+    }
+
+    def setTelefonkontaktCheckBox(value){
+        AbstractPage.scrollIntoView(telefonkontakt.attr("id"));
+        telefonkontakt = value;
+    }
+
+    def setJournalCheckBox(value){
+        AbstractPage.scrollIntoView(journal.attr("id"));
+        journal = value;
+    }
+
+    def setOtherCheckBox(value){
+        AbstractPage.scrollIntoView(other.attr("id"));
+        other = value;
     }
 
     def setUndersokning(value){
@@ -141,12 +167,13 @@ class PrognosModule extends Module {
         radioGroup { form.capacityForWorkForecast }
 
         beskrivning { $("#capacityForWorkForecastText") }
-        prognos { $("input", name: "capacityForWork.forecast") }
+        prognos { $("input", name: "capacityForWorkForecast") }
 
     }
 
     def valjPrognos(String valdPrognos) {
         if (valdPrognos != null) {
+            AbstractPage.scrollIntoView("capacityForWork4");
             def validTypes = ["ja", "delvis", "nej", "?"];
             assert validTypes.contains(valdPrognos),
                     "Fältet 'prognos' kan endast innehålla något av följande värden: ${validTypes}"
@@ -164,6 +191,7 @@ class PrognosModule extends Module {
     }
 
     def prognosValue(){
+        AbstractPage.scrollIntoView("capacityForWork4");
         return prognos.value();
     }
 }
@@ -181,9 +209,9 @@ class RekommendationerModule extends Module {
         // this doesn't seem to work with the form.<group name> syntax
         // as a result I needed to use the input query for arbetslivsinriktadRehabilitering
         // when selecting the radio button group
-        arbetslivsinriktadRehabilitering { $("input", name:"recommendationsToFkTravel") }
-
-        radioGroupResor { form["recommendationsToFkTravel"] }
+        arbetslivsinriktadRehabilitering { $("input", name:"recommendationsToFkReabInQuestion") }
+        recommendationsToFkTravel { $("input", name:"recommendationsToFkTravel") }
+        radioGroupResor { form.recommendationsToFkTravel }
         radioGroupRehab {  form.recommendationsToFkReabInQuestion }
 
         ressattJa { $("#rekommendationRessatt") }
@@ -198,6 +226,7 @@ class RekommendationerModule extends Module {
 
     def valjArbetslivsinriktadRehabilitering(String arAktuell) {
         if (arAktuell != null) {
+            AbstractPage.scrollIntoView("rehabYes");
             def validTypes = ["ja", "nej", "?"];
             assert validTypes.contains(arAktuell),
                     "Fältet 'arbetslivsinriktadRehabilitering' kan endast innehålla något av följande värden: ${validTypes}"
@@ -206,10 +235,43 @@ class RekommendationerModule extends Module {
                 arbetslivsinriktadRehabilitering = "JA"
             } else if ("nej" == arAktuell) {
                 arbetslivsinriktadRehabilitering = "NEJ"
-            } else if ("?" == valdPrognos) {
+            } else if ("?" == arAktuell) {
                 arbetslivsinriktadRehabilitering = "GAREJ"
             }
         }
+    }
+
+    def arbetslivsinriktadRehabiliteringValue(){
+        return arbetslivsinriktadRehabilitering.value();
+    }
+
+    def valjRecommendationsToFkTravel(String arAktuell) {
+        if (arAktuell != null) {
+            AbstractPage.scrollIntoView("rekommendationRessatt");
+            def validTypes = ["ja", "nej"];
+            assert validTypes.contains(arAktuell),
+                    "Fältet 'RecommendationsToFkTravel' kan endast innehålla något av följande värden: ${validTypes}"
+
+            if ("ja" == arAktuell) {
+                recommendationsToFkTravel = "JA"
+            } else if ("nej" == arAktuell) {
+                recommendationsToFkTravel = "NEJ"
+            }
+        }
+    }
+
+    def radioGroupRehabValue(){
+        AbstractPage.scrollIntoView("rehabYes");
+        return radioGroupRehab;
+    }
+
+    def radioGroupResorValue(){
+        AbstractPage.scrollIntoView("rekommendationRessatt");
+        return radioGroupResor;
+    }
+
+    def recommendationsToFkTravelValue(){
+        return recommendationsToFkTravel.value();
     }
 }
 

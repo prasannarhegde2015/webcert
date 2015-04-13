@@ -1,9 +1,6 @@
 package se.inera.webcert.service.intyg.converter;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang3.StringUtils;
 import org.joda.time.LocalDateTime;
@@ -12,20 +9,22 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import se.inera.certificate.clinicalprocess.healthcond.certificate.v1.CertificateMetaType;
 import se.inera.certificate.model.CertificateState;
 import se.inera.certificate.model.common.internal.Utlatande;
-import se.inera.certificate.schema.util.ClinicalProcessCertificateMetaTypeConverter;
 import se.inera.ifv.insuranceprocess.healthreporting.revokemedicalcertificateresponder.v1.RevokeType;
 import se.inera.ifv.insuranceprocess.healthreporting.sendmedicalcertificateresponder.v1.SendType;
-import se.inera.ifv.insuranceprocess.healthreporting.util.ModelConverter;
+import se.inera.intyg.common.schemas.clinicalprocess.healthcond.certificate.converter.ClinicalProcessCertificateMetaTypeConverter;
+import se.inera.intyg.common.schemas.insuranceprocess.healthreporting.converter.ModelConverter;
 import se.inera.webcert.medcertqa.v1.LakarutlatandeEnkelType;
 import se.inera.webcert.medcertqa.v1.VardAdresseringsType;
 import se.inera.webcert.persistence.utkast.model.Utkast;
 import se.inera.webcert.service.exception.WebCertServiceErrorCodeEnum;
 import se.inera.webcert.service.exception.WebCertServiceException;
 import se.inera.webcert.service.intyg.dto.IntygItem;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
 public class IntygServiceConverterImpl implements IntygServiceConverter {
