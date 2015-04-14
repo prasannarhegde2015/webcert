@@ -171,7 +171,8 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
         try {
             LOG.debug("Fetching intyg '{}' as PDF", intygId);
 
-            IntygContentHolder intyg = getIntygData(intygId, intygTyp);
+            IntygContentHolder intyg = getIntygDataPreferWebcert(intygId, intygTyp);
+
             verifyEnhetsAuth(intyg.getUtlatande(), true);
 
             IntygPdf intygPdf = modelFacade.convertFromInternalToPdfDocument(intygTyp, intyg.getContents(), intyg.getStatuses());
@@ -371,6 +372,11 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
 
     /* --------------------- Private scope --------------------- */
 
+    /**
+     * Builds a IntygContentHolder by first trying to get the Intyg from intygstjansten. If
+     * not found or the Intygstjanst couldn't be reached, the local Utkast - if available -
+     * will be used instead.
+     */
     private IntygContentHolder getIntygData(String intygId, String typ) {
         try {
             CertificateResponse certificate = modelFacade.getCertificate(intygId, typ);
@@ -385,12 +391,32 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
             }
             return buildIntygContentHolder(typ, utkast);
         } catch (WebServiceException wse) {
+            // Something went wrong communication-wise, try to find a matching Utkast instead.
             Utkast utkast = utkastRepository.findOne(intygId);
             if (utkast == null) {
-                throw new WebCertServiceException(WebCertServiceErrorCodeEnum.DATA_NOT_FOUND, "Cannot get intyg. Intygstjansten was not reachable and the Utkast could not be found, perhaps it was issued by a non-webcert system?");
+                throw new WebCertServiceException(WebCertServiceErrorCodeEnum.DATA_NOT_FOUND,
+                        "Cannot get intyg. Intygstjansten was not reachable and the Utkast could " +
+                        "not be found, perhaps it was issued by a non-webcert system?");
             }
             return buildIntygContentHolder(typ, utkast);
         }
+    }
+
+
+    /**
+     * As the name of the method implies, this method builds a IntygContentHolder instance
+     * from the Utkast stored in Webcert. If not present, it will try to fetch from Intygstjansten
+     * instead.
+     */
+    private IntygContentHolder getIntygDataPreferWebcert(String intygId, String intygTyp) {
+        Utkast utkast = utkastRepository.findOne(intygId);
+        IntygContentHolder intyg = null;
+        if (utkast != null) {
+            intyg = buildIntygContentHolder(intygTyp, utkast);
+        } else {
+            intyg = getIntygData(intygId, intygTyp);
+        }
+        return intyg;
     }
 
     private IntygContentHolder buildIntygContentHolder(String typ, Utkast utkast) {
@@ -399,8 +425,6 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
         List<Status> statuses = serviceConverter.buildStatusesFromUtkast(utkast);
         return new IntygContentHolder(utkast.getModel(), utlatande, statuses, utkast.getAterkalladDatum() != null);
     }
-
-
 
     private Utlatande getUtlatandeForIntyg(String intygId, String typ) {
         Utkast utkast = utkastRepository.findOne(intygId);
@@ -411,8 +435,6 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
             return intyg.getUtlatande();
         }
     }
-
-
 
     private void registerIntyg(Utkast utkast) throws IntygModuleFacadeException, ModuleException {
         LOG.debug("Attempting to register signed utkast {}", utkast.getIntygsId());
@@ -467,8 +489,6 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
         // Return OK
         return IntygServiceResult.OK;
     }
-
-
 
     private void markUtkastWithSendDateAndRecipient(String intygsId, String recipient) {
         Utkast utkast = utkastRepository.findOne(intygsId);
