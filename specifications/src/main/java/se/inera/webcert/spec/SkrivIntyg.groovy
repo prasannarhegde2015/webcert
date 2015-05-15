@@ -1,6 +1,8 @@
 package se.inera.webcert.spec
 
 import org.openqa.selenium.Keys
+
+import se.inera.certificate.spec.Browser
 import se.inera.webcert.pages.SokSkrivValjIntygTypPage
 import se.inera.webcert.pages.SokSkrivaIntygPage
 
@@ -15,23 +17,14 @@ class SkrivIntyg {
                 at SokSkrivaIntygPage
             }
 
-            page.personnummer = patient
-            page.personnummerFortsattKnapp.click()
+            page.angePatient(patient)
 
             waitFor {
                 at SokSkrivValjIntygTypPage
             }
 
-            if (typ == "FK7263") {
-                page.valjIntygstypFk7263();
-            } else if (typ == "ts-bas") {
-                page.valjIntygstypTsBas();
-            } else if (typ == "ts-diabetes") {
-                page.valjIntygstypTsDiabetes();
-            }
-
-            page.fortsattKnapp.click();
-
+            page.valjIntygsTyp(typ)
+            
             waitFor {
                 if (typ == "FK7263") {
                     at se.inera.webcert.pages.fk7263.EditCertPage
@@ -41,7 +34,7 @@ class SkrivIntyg {
                     at se.inera.webcert.pages.ts_diabetes.EditCertPage
                 }
             }
-
+    
             intygsid = currentUrl.substring(currentUrl.lastIndexOf("/") + 1)
         }
     }
@@ -50,14 +43,28 @@ class SkrivIntyg {
         intygsid
     }
 
-    def visaVadSomSaknas(){
+    void visaVadSomSaknas(){
         Browser.drive {
-            page.visaVadSomSaknasKnapp.click();
+            page.visaVadSomSaknas()
         }
     }
 
-    def ingaValideringsfelVisas() {
-        def result = false
+    void doljVadSomSaknas(){
+        Browser.drive {
+            page.doljVadSomSaknas()
+        }
+    }
+
+    boolean visaVadSomSaknasListaVisas(boolean expected = false) {
+        boolean result
+        Browser.drive {
+            result = page.visaVadSomSaknasLista.isDisplayed() == expected
+        }
+        result
+    }
+
+    boolean ingaValideringsfelVisas() {
+        def result
         Browser.drive {
             result = !page.valideringIntygBaseratPa.isDisplayed() &&
                 !page.valideringDiagnos.isDisplayed() &&
@@ -72,73 +79,81 @@ class SkrivIntyg {
         result
     }
 
-    def valideringsfelIntygBaseratPaVisas() {
-        def result = false
+    boolean valideringsfelIntygBaseratPaVisas() {
+        def result
         Browser.drive{
             result = page.valideringIntygBaseratPa.isDisplayed()
         }
         result
     }
-    def valideringsfelDiagnosVisas() {
-        def result = false
+    boolean valideringsfelDiagnosVisas() {
+        def result
         Browser.drive{
             result = page.valideringDiagnos.isDisplayed()
         }
         result
     }
-    def valideringsfelFunktionsnedsattningVisas() {
-        def result = false
+    boolean valideringsfelFunktionsnedsattningVisas() {
+        def result
         Browser.drive{
             result = page.valideringFunktionsnedsattning.isDisplayed()
         }
         result
     }
-    def valideringsfelAktivitetsbegransningVisas() {
-        def result = false
+    boolean valideringsfelAktivitetsbegransningVisas() {
+        def result
         Browser.drive{
             result = page.valideringAktivitetsbegransning.isDisplayed()
         }
         result
     }
-    def valideringsfelSysselsattningVisas() {
-        def result = false
+    boolean valideringsfelSysselsattningVisas() {
+        def result
         Browser.drive{
             result = page.valideringSysselsattning.isDisplayed()
         }
         result
     }
-    def valideringsfelArbetsformagaVisas() {
-        def result = false
+    boolean valideringsfelArbetsformagaVisas() {
+        def result
         Browser.drive{
             result = page.valideringArbetsformaga.isDisplayed()
         }
         result
     }
-    def valideringsfelPrognosVisas() {
-        def result = false
+    boolean valideringsfelPrognosVisas() {
+        def result
         Browser.drive{
             result = page.valideringPrognos.isDisplayed()
         }
         result
     }
-    def valideringsfelRekommendationerVisas() {
-        def result = false
+    boolean valideringsfelRekommendationerVisas() {
+        def result
         Browser.drive{
             result = page.valideringRekommendationer.isDisplayed()
         }
         result
     }
-    def valideringsfelVardpersonVisas() {
-        def result = false
+    boolean valideringsfelVardpersonVisas() {
+        def result
         Browser.drive{
             result = page.valideringVardperson.isDisplayed()
         }
         result
     }
 
-    def sparaUtkast() {
+    void sparaUtkast() {
+        // ocassionally the spara button has gone back to disabled becuase the auto save has already happened.
+        // we need to check if intygSparatVisas, if it has then we should not try clicking on
+        // the spara button.
         Browser.drive {
-            page.sparaKnapp.click()
+            if(page.intygetSparatMeddelande != null && page.intygetSparatMeddelande.isDisplayed()){
+                println('auto save has happened!')
+            } else {
+                page.spara()
+                println('before auto save so click on the save button')
+            }
         }
     }
 
@@ -160,48 +175,41 @@ class SkrivIntyg {
 
     boolean intygEjKomplettVisas() {
         Browser.drive {
-            waitFor(6) {
-                page.intygetEjKomplettMeddelande.isDisplayed()
-            }
+            assert page.intygetEjKomplettMeddelande.isDisplayed()
         }
         true
     }
 
-    boolean verifieraAttSjukskrivningsperiodenAr(int expected) {
+    int sjukskrivningsperiod() {
+        int result
         Browser.drive {
-            waitFor {
-                sleep(500)
-                expected == page.arbetsformaga.period.text().toInteger()
-            }
+            result = page.arbetsformaga.period.text().toInteger()
         }
-        true
+        result
     }
 
-    boolean verifieraAttArbetstid25Ar(String expected) {
+    String arbetstid25() {
+        String result
         Browser.drive {
-            waitFor {
-                expected == page.arbetsformaga.arbetstid25.text()
-            }
+            result = page.arbetsformaga.arbetstid25.text()
         }
-        true
+        result
     }
 
-    boolean verifieraAttArbetstid50Ar(String expected) {
+    String arbetstid50() {
+        String result
         Browser.drive {
-            waitFor {
-                expected == page.arbetsformaga.arbetstid50.text()
-            }
+            result = page.arbetsformaga.arbetstid50.text()
         }
-        true
+        result
     }
 
-    boolean verifieraAttArbetstid75Ar(String expected) {
+    String arbetstid75() {
+        String result
         Browser.drive {
-            waitFor {
-                expected == page.arbetsformaga.arbetstid75.text()
-            }
+            result = page.arbetsformaga.arbetstid75.text()
         }
-        true
+        result
     }
 
     String diagnos1Kod() {
@@ -261,27 +269,22 @@ class SkrivIntyg {
     def oppnaDatePicker(){
         Browser.drive {
             baserasPa.undersokningDatumToggle.click();
+            waitFor {
+                page.doneLoading()
+            }
         }
     }
 
     boolean datePickerVisas() {
-        def result = false
-        Browser.drive {
-            waitFor(1) {
-                result = page.datepicker.isDisplayed()
-            }
-        }
-        result
-    }
-
-    boolean datePickerInteVisas() {
         def result
         Browser.drive {
-            result = !page.datepicker.isDisplayed()
+            waitFor {
+                page.doneLoading()
+            }
+            result = page.datepicker.isDisplayed()
         }
         result
     }
-
 
     String prognos() {
         def result = '';
@@ -291,8 +294,8 @@ class SkrivIntyg {
         result
     }
 
-    boolean prognosArOvalt() {
-        def result = false;
+    boolean prognosArInteVald() {
+        def result;
         Browser.drive {
             result = page.prognos.prognos.value() == null;
         }
@@ -318,9 +321,7 @@ class SkrivIntyg {
     String ressattNej() {
         def result = ''
         Browser.drive {
-            waitFor {
-                result = page.rekommendationer.ressattNej.value();
-            }
+            result = page.rekommendationer.ressattNej.value();
         }
         result
     }
@@ -328,9 +329,7 @@ class SkrivIntyg {
     String ressattJa() {
         def result = ''
         Browser.drive {
-            waitFor {
-                result = page.rekommendationer.ressattJa.value();
-            }
+            result = page.rekommendationer.ressattJa.value();
         }
         result
     }
@@ -338,9 +337,7 @@ class SkrivIntyg {
     String rehabJa() {
         def result = ''
         Browser.drive {
-            waitFor {
-                result = page.rekommendationer.rehabYes.value();
-            }
+            result = page.rekommendationer.rehabYes.value();
         }
         result
     }
@@ -348,36 +345,30 @@ class SkrivIntyg {
     String rehabNej() {
         def result = ''
         Browser.drive {
-            waitFor {
-                result = page.rekommendationer.rehabNo.value();
-            }
+            result = page.rekommendationer.rehabNo.value();
         }
         result
     }
 
-    boolean rehabNejInteSynes() {
-        def result = false
+    boolean rehabNejVisas() {
+        def result
         Browser.drive {
-            waitFor {
-                result = !page.rekommendationer.rehabNo.isDisplayed();
-            }
+            result = page.rekommendationer.rehabNo.isDisplayed();
         }
         result
     }
 
     def klickaPaTillbakaKnappen() {
         Browser.drive {
-            page.tillbakaButton.click();
+            page.tillbaka()
         }
     }
 
-    boolean verifieraAttTextForIdInnehallar(String elementId, String expectedText) {
-        def result = false;
+    boolean textForIdInnehallar(String elementId, String expectedText) {
+        def result;
         Browser.drive {
-            waitFor {
-                def element = page.elementForId(elementId);
-                result = containText(element, expectedText);
-            }
+            def element = page.elementForId(elementId);
+            result = containText(element, expectedText);
         }
         result
     }
@@ -398,38 +389,64 @@ class SkrivIntyg {
         return text.contains(expectedText);
     }
 
-    boolean verifieraAttTextForClassInnehallar(String classId, String expectedText) {
-        def result = false;
+    boolean textForClassInnehallar(String classId, String expectedText) {
+        def result;
         Browser.drive {
-            waitFor {
-                def element = page.elementForClass(classId);
-                result = containText(element, expectedText);
-            }
+            def element = page.elementForClass(classId);
+            result = containText(element, expectedText);
         }
         result
     }
 
-    def klickaPaSmittskyd(val) {
+    /**
+     * Returns true if the specified text exists in any of the markup within the specified element id. E.g,
+     * note that this looks at all HTML, not just text within the element.
+     */
+    boolean markupForIdInnehaller(String elementId, String text) {
+        def result
         Browser.drive {
-            page.setSmittSkydCheckBox(val);
+            def element = $('#' + elementId)
+            result = element.contains(text)
+        }
+        result
+    }
+
+    void klickaPaSmittskyd(boolean val) {
+        Browser.drive {
+            page.setSmittskydd(val);
         }
     }
 
     boolean diagnosArSynligt(){
+        def result
         Browser.drive {
-            waitFor {
-                page.diagnos.isDisplayed();
-            }
+            result = page.diagnos.isDisplayed()
+        }
+        result
+    }
+
+    /**
+     * Clicks the anchor identified as having the supplied string as message key.
+     *
+     * @param messageKeyForLink
+     * @return
+     */
+    def klickaPaFellank(String messageKeyForLink) {
+        Browser.drive {
+            def errorLink = $('a').find('span[key="' + messageKeyForLink + '"]');
+            errorLink.click()
         }
     }
 
-    boolean diagnosArEjSynligt(){
-        def result;
+    /**
+     * Checks the full markup of the <body> for the text string "[Missing " and returns
+     * false if it is found.
+     */
+    boolean ingaOversattningsnycklarSaknas() {
+        def result
         Browser.drive {
-            waitFor {
-                result = !page.diagnos.isDisplayed();
-            }
+            result = $('body').text().contains("[Missing ")
         }
-        return result;
+        !result
     }
 }

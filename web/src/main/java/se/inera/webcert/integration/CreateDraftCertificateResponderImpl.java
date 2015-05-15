@@ -7,13 +7,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import se.inera.certificate.clinicalprocess.healthcond.certificate.createdraftcertificateresponder.v1.CreateDraftCertificateResponderInterface;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.createdraftcertificateresponder.v1.CreateDraftCertificateResponseType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.createdraftcertificateresponder.v1.CreateDraftCertificateType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.createdraftcertificateresponder.v1.Utlatande;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.types.v1.UtlatandeId;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.v1.ErrorIdType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.v1.ResultType;
+import se.riv.clinicalprocess.healthcond.certificate.createdraftcertificateresponder.v1.CreateDraftCertificateResponderInterface;
+import se.riv.clinicalprocess.healthcond.certificate.createdraftcertificateresponder.v1.CreateDraftCertificateResponseType;
+import se.riv.clinicalprocess.healthcond.certificate.createdraftcertificateresponder.v1.CreateDraftCertificateType;
+import se.riv.clinicalprocess.healthcond.certificate.createdraftcertificateresponder.v1.Utlatande;
+import se.riv.clinicalprocess.healthcond.certificate.types.v1.UtlatandeId;
+import se.riv.clinicalprocess.healthcond.certificate.v1.ErrorIdType;
+import se.riv.clinicalprocess.healthcond.certificate.v1.ResultType;
 import se.inera.ifv.hsawsresponder.v3.MiuInformationType;
 import se.inera.intyg.common.schemas.clinicalprocess.healthcond.certificate.utils.ResultTypeUtil;
 import se.inera.webcert.hsa.services.HsaPersonService;
@@ -24,6 +24,7 @@ import se.inera.webcert.integration.validator.CreateDraftCertificateValidator;
 import se.inera.webcert.integration.validator.ValidationResult;
 import se.inera.webcert.service.dto.Vardenhet;
 import se.inera.webcert.service.dto.Vardgivare;
+import se.inera.webcert.service.monitoring.MonitoringLogService;
 import se.inera.webcert.service.utkast.UtkastService;
 import se.inera.webcert.service.utkast.dto.CreateNewDraftRequest;
 
@@ -46,6 +47,9 @@ public class CreateDraftCertificateResponderImpl implements CreateDraftCertifica
     @Autowired
     private IntegreradeEnheterRegistry integreradeEnheterRegistry;
 
+    @Autowired
+    private MonitoringLogService monitoringLogService;
+    
     @Override
     public CreateDraftCertificateResponseType createDraftCertificate(String logicalAddress, CreateDraftCertificateType parameters) {
 
@@ -107,7 +111,6 @@ public class CreateDraftCertificateResponderImpl implements CreateDraftCertifica
 
         switch (miusOnUnit.size()) {
         case 0:
-            LOG.error("Found no MIUs for user '{}' on unit '{}', returning null", invokingUserHsaId, invokingUnitHsaId);
             return null;
         case 1:
             return miusOnUnit.get(0);
@@ -141,8 +144,9 @@ public class CreateDraftCertificateResponderImpl implements CreateDraftCertifica
         String invokingUserHsaId = utlatandeType.getSkapadAv().getPersonalId().getExtension();
         String invokingUnitHsaId = utlatandeType.getSkapadAv().getEnhet().getEnhetsId().getExtension();
 
+        monitoringLogService.logMissingMedarbetarUppdrag(invokingUserHsaId, invokingUnitHsaId);
+        
         String errMsg = String.format("No valid MIU was found for person %s on unit %s, can not create draft!", invokingUserHsaId, invokingUnitHsaId);
-        LOG.error(errMsg);
         return createErrorResponse(errMsg, ErrorIdType.VALIDATION_ERROR);
     }
 

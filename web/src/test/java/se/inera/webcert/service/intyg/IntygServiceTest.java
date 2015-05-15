@@ -9,14 +9,7 @@ import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
-import javax.xml.bind.JAXBContext;
-import javax.xml.transform.stream.StreamSource;
 import javax.xml.ws.WebServiceException;
-
 import org.apache.commons.io.IOUtils;
 import org.apache.cxf.helpers.FileUtils;
 import org.joda.time.LocalDateTime;
@@ -29,10 +22,6 @@ import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.core.io.ClassPathResource;
-
-import se.inera.certificate.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareResponderInterface;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareResponseType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareType;
 import se.inera.certificate.integration.json.CustomObjectMapper;
 import se.inera.certificate.model.CertificateState;
 import se.inera.certificate.model.Status;
@@ -54,7 +43,18 @@ import se.inera.webcert.service.intyg.dto.IntygItemListResponse;
 import se.inera.webcert.service.intyg.dto.IntygPdf;
 import se.inera.webcert.service.log.LogService;
 import se.inera.webcert.service.log.dto.LogRequest;
+import se.inera.webcert.service.monitoring.MonitoringLogService;
 import se.inera.webcert.web.service.WebCertUserService;
+import se.riv.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareResponderInterface;
+import se.riv.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareResponseType;
+import se.riv.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareType;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.transform.stream.StreamSource;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 
 /**
  * @author andreaskaltenbach
@@ -95,6 +95,9 @@ public class IntygServiceTest {
 
     @Mock
     private WebCertUserService webCertUserService;
+    
+    @Mock
+    private MonitoringLogService mockMonitoringService;
 
     @Before
     public void setupIntygstjanstResponse() throws Exception {
@@ -145,6 +148,8 @@ public class IntygServiceTest {
 
         // ensure that correctcall is made to intygstjanst
         verify(moduleFacade).getCertificate(CERTIFICATE_ID, CERTIFICATE_TYPE);
+        
+        verify(mockMonitoringService).logIntygRead(CERTIFICATE_ID, CERTIFICATE_TYPE);
 
         assertEquals(json, intygData.getContents());
         assertEquals(CERTIFICATE_ID, intygData.getUtlatande().getId());
@@ -176,6 +181,8 @@ public class IntygServiceTest {
         verify(moduleFacade).getCertificate(CERTIFICATE_ID, CERTIFICATE_TYPE);
         // Assert pdl log
         verify(logservice).logReadIntyg(any(LogRequest.class));
+        // Assert monitoring log
+        verify(mockMonitoringService).logIntygRead(CERTIFICATE_ID, CERTIFICATE_TYPE);
     }
 
     @Test

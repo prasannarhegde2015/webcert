@@ -170,10 +170,9 @@ describe('ManageCertificate', function() {
 
         beforeEach(function() {
             $scope = {
-                widgetState: {
+                viewState: {
                     activeErrorMessageKey: null,
-                    inlineErrorMessageKey: null,
-                    createErrorMessageKey: undefined
+                    inlineErrorMessageKey: null
                 },
                 dialog: {
                     showerror: false,
@@ -206,7 +205,7 @@ describe('ManageCertificate', function() {
             $httpBackend.expectPOST('/api/intyg/' + cert.intygType + '/' + cert.intygId +'/kopiera/').respond(
                 {'intygsUtkastId':'nytt-utkast-id','intygsTyp':'fk7263'}
             );
-            ManageCertificate.copy($scope, cert);
+            ManageCertificate.copy($scope.viewState, cert);
             $httpBackend.flush();
             $timeout.flush();
             expect(dialogService.showDialog).not.toHaveBeenCalled();
@@ -221,7 +220,7 @@ describe('ManageCertificate', function() {
             $httpBackend.expectPOST('/api/intyg/' + cert.intygType + '/' + cert.intygId +'/kopiera/').respond(
                 {'intygsUtkastId':'nytt-utkast-id','intygsTyp':'fk7263'}
             );
-            ManageCertificate.copy($scope, cert);
+            ManageCertificate.copy($scope.viewState, cert);
             $httpBackend.flush();
             $timeout.flush();
 

@@ -5,6 +5,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.UUID;
 
+import javax.persistence.OptimisticLockException;
+
 import org.apache.commons.codec.binary.Hex;
 import org.joda.time.LocalDateTime;
 import org.slf4j.Logger;
@@ -13,7 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import se.inera.certificate.logging.LogMarkers;
 import se.inera.certificate.modules.registry.IntygModuleRegistry;
 import se.inera.certificate.modules.registry.ModuleNotFoundException;
 import se.inera.certificate.modules.support.api.ModuleApi;
@@ -33,6 +34,7 @@ import se.inera.webcert.service.intyg.IntygService;
 import se.inera.webcert.service.log.LogRequestFactory;
 import se.inera.webcert.service.log.LogService;
 import se.inera.webcert.service.log.dto.LogRequest;
+import se.inera.webcert.service.monitoring.MonitoringLogService;
 import se.inera.webcert.service.notification.NotificationService;
 import se.inera.webcert.service.signatur.dto.SignaturTicket;
 import se.inera.webcert.web.service.WebCertUserService;
@@ -61,6 +63,9 @@ public class SignaturServiceImpl implements SignaturService {
 
     @Autowired
     private NotificationService notificationService;
+    
+    @Autowired
+    private MonitoringLogService monitoringService; 
 
     @Autowired
     private ObjectMapper objectMapper;
@@ -74,32 +79,25 @@ public class SignaturServiceImpl implements SignaturService {
         if (ticket != null && ticket.getId().equals(ticketId)) {
             return ticket;
         } else {
-            return new SignaturTicket(ticketId, SignaturTicket.Status.OKAND, null, null, null, new LocalDateTime());
+            return new SignaturTicket(ticketId, SignaturTicket.Status.OKAND, null, 0, null, null, new LocalDateTime());
         }
     }
 
     @Override
     @Transactional
-    public SignaturTicket createDraftHash(String intygId) {
+    public Utkast prepareUtkastForSignering(String intygId, long version, WebCertUser user, LocalDateTime signeringstid) {
         LOG.debug("Hash for clientsignature of draft '{}'", intygId);
 
         // Fetch the certificate draft
-        Utkast utkast = getUtkastForSignering(intygId);
+        Utkast utkast = getUtkastForSignering(intygId, version);
 
-        // Fetch Webcert user
-        WebCertUser user = webCertUserService.getWebCertUser();
-
-        LocalDateTime signeringstid = LocalDateTime.now();
-        
         // Update certificate with user information
         utkast = updateUtkastForSignering(utkast, user, signeringstid);
 
         // Save the certificate draft
-        utkastRepository.save(utkast);
+        utkast = utkastRepository.save(utkast);
 
-        SignaturTicket statusTicket = createSignaturTicket(utkast.getIntygsId(), utkast.getModel(), signeringstid);
-
-        return statusTicket;
+        return utkast;
     }
 
     @Override
@@ -116,7 +114,7 @@ public class SignaturServiceImpl implements SignaturService {
         LOG.debug("Klientsignering ticket '{}' intyg '{}'", ticket.getId(), ticket.getIntygsId());
 
         // Fetch the draft
-        Utkast utkast = getUtkastForSignering(ticket.getIntygsId());
+        Utkast utkast = getUtkastForSignering(ticket.getIntygsId(), ticket.getVersion());
 
         // Fetch Webcert user
         WebCertUser user = webCertUserService.getWebCertUser();
@@ -131,7 +129,8 @@ public class SignaturServiceImpl implements SignaturService {
             throw new WebCertServiceException(WebCertServiceErrorCodeEnum.UNKNOWN_INTERNAL_PROBLEM, "Kunde inte validera SITHS signatur", e);
         }*/
 
-        LOG.info(LogMarkers.MONITORING, "Intyg '{}' signed by '{}'", utkast.getIntygsId(), user.getHsaId());
+        monitoringService.logIntygSigned(utkast.getIntygsId(), user.getHsaId(),
+                user.getAuthenticationScheme());
 
         // Create and persist the new signature
         ticket = createAndPersistSignature(utkast, ticket, rawSignatur, user);
@@ -174,23 +173,18 @@ public class SignaturServiceImpl implements SignaturService {
 
     @Override
     @Transactional(noRollbackFor=javax.xml.ws.WebServiceException.class)
-    public SignaturTicket serverSignature(String intygsId) {
-        LOG.debug("Signera utkast '{}'", intygsId);
-
-        // On server side we need to create our own signature ticket
-        SignaturTicket ticket = createDraftHash(intygsId);
-
-        // Fetch Webcert user
-        WebCertUser user = webCertUserService.getWebCertUser();
-
-        // Fetch the certificate
-        Utkast utkast = getUtkastForSignering(intygsId);
-
-        LOG.info(LogMarkers.MONITORING, "Intyg '{}' signed by '{}'", utkast.getIntygsId(), user.getHsaId());
+    public SignaturTicket serverSignature(Utkast utkast, WebCertUser user, LocalDateTime signeringstid) {
+        LOG.debug("Signera utkast '{}'", utkast.getIntygsId());
 
         // Create and persist signature
-        ticket = createAndPersistSignature(utkast, ticket, "Signatur", user);
+        SignaturTicket ticket = createSignaturTicket(utkast.getIntygsId(), utkast.getVersion(), utkast.getModel(), signeringstid);
 
+        ticket = createAndPersistSignature(utkast, ticket, "Signatur", user);
+        
+        // Audit signing
+        monitoringService.logIntygSigned(utkast.getIntygsId(), user.getHsaId(),
+                user.getAuthenticationScheme());
+        
         // Notify stakeholders when a draft has been signed
         notificationService.sendNotificationForDraftSigned(utkast);
         LOG.debug("Notification sent: a certificate draft with id '{}' was signed using SERVER method", utkast.getIntygsId());
@@ -201,13 +195,16 @@ public class SignaturServiceImpl implements SignaturService {
         return ticketTracker.updateStatus(ticket.getId(), SignaturTicket.Status.SIGNERAD);
     }
 
-    private Utkast getUtkastForSignering(String intygId) {
+    private Utkast getUtkastForSignering(String intygId, long version) {
         Utkast utkast = utkastRepository.findOne(intygId);
 
         if (utkast == null) {
             LOG.warn("Utkast '{}' was not found", intygId);
             throw new WebCertServiceException(WebCertServiceErrorCodeEnum.DATA_NOT_FOUND, "Internal error signing utkast, the utkast '" + intygId
                     + "' could not be found");
+        } else if (utkast.getVersion() != version) {
+                LOG.debug("Utkast '{}' was concurrently modified", intygId);
+                throw new OptimisticLockException(utkast.getSenastSparadAv().getNamn());
         } else if (utkast.getStatus() != UtkastStatus.DRAFT_COMPLETE) {
             LOG.warn("Utkast '{}' med status '{}' kunde inte signeras. Måste vara i status {}", intygId, utkast.getStatus(),
                     UtkastStatus.DRAFT_COMPLETE);
@@ -243,11 +240,11 @@ public class SignaturServiceImpl implements SignaturService {
         return utkast;
     }
 
-    private SignaturTicket createSignaturTicket(String intygId, String payload, LocalDateTime signeringstid) {
+    public SignaturTicket createSignaturTicket(String intygId, long version, String payload, LocalDateTime signeringstid) {
         try {
             String hash = createHash(payload);
             String id = UUID.randomUUID().toString();
-            SignaturTicket statusTicket = new SignaturTicket(id, SignaturTicket.Status.BEARBETAR, intygId, signeringstid, hash, new LocalDateTime());
+            SignaturTicket statusTicket = new SignaturTicket(id, SignaturTicket.Status.BEARBETAR, intygId, version, signeringstid, hash, new LocalDateTime());
             ticketTracker.trackTicket(statusTicket);
             return statusTicket;
         } catch (IllegalStateException e) {

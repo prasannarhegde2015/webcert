@@ -2,8 +2,10 @@ package se.inera.webcert.pages.ts_diabetes
 
 import geb.Module
 import se.inera.certificate.page.AbstractPage
+import se.inera.webcert.pages.AbstractEditCertPage
+import se.inera.webcert.pages.VardenhetModule
 
-class EditCertPage extends AbstractPage {
+class EditCertPage extends AbstractEditCertPage {
 
     static at = { doneLoading() && $("#edit-ts-diabetes").isDisplayed() }
 
@@ -19,13 +21,14 @@ class EditCertPage extends AbstractPage {
         intygetEjKomplettMeddelande { $("#intyget-ej-komplett-meddelande") }
 
         // Formulärfält
+        form { $("form") }
         patient { module PatientModule }
         intygetAvser { module IntygetAvserModule }
         identitet { module IdentitetModule }
         allmant { module AllmantModule }
         hypoglykemier { module HypoglykemierModule }
         syn { module SynModule }
-        bedomning { module BedomningModule}
+        bedomning { name -> module BedomningModule, form: form }
         kommentar { $("#kommentar") }
         specialist { $("#specialist") }
         vardenhet { module VardenhetModule }
@@ -74,6 +77,10 @@ class IntygetAvserModule extends Module {
 
     def valjBehorigheter(String valdaBehorigheter) {
         if (valdaBehorigheter != null) {
+
+            // scroll into view
+            AbstractPage.scrollIntoView("typcheck0");
+
             am = false
             a1 = false
             a2 = false
@@ -147,6 +154,8 @@ class IdentitetModule extends Module {
 
     def valjTyp(String identifieringstyp) {
         if (identifieringstyp != null) {
+
+            AbstractPage.scrollIntoView('identity0');
             def validTypes = ["idkort", "foretagskort", "korkort", "kannedom", "forsakran", "pass"]
             assert validTypes.contains(identifieringstyp),
                     "Fältet 'identifieringstyp' kan endast innehålla något av följande värden: ${validTypes}"
@@ -182,6 +191,7 @@ class AllmantModule extends Module {
 
     def valjTyp(String valdDiabetestyp) {
         if (valdDiabetestyp != null) {
+            AbstractPage.scrollIntoView('allmantForm');
             def validTypes = ["typ1", "typ2"]
             assert validTypes.contains(valdDiabetestyp),
                     "Fältet 'diabetestyp' kan endast innehålla något av följande värden: ${validTypes}"
@@ -208,6 +218,7 @@ class HypoglykemierModule extends Module {
         fragaF { $("input", name: "hypof") }
         fragaG { $("input", name: "hypog") }
         allvarligForekomstVakenTid { $("#allvarligForekomstVakenTidObservationstid") }
+        allvarligForekomstVakenTidObservationstid_toggle { $("#allvarligForekomstVakenTidObservationstid-toggle") }
     }
 }
 
@@ -227,9 +238,16 @@ class SynModule extends Module {
 }
 
 class BedomningModule extends Module {
+    def form
     static base = { $("#bedomningForm") }
     static content = {
+
         behorighet { $("input", name: "behorighet") }
+        behorighetBedomning { $("#behorighet_bedomning") }
+        behorighetKanInteTaStallning { $("#behorighet_kanintetastallning") }
+
+        behorighetGroup { form.behorighet }
+
         am { $("#korkortstyp0") }
         a1 { $("#korkortstyp1") }
         a2 { $("#korkortstyp2") }
@@ -249,8 +267,16 @@ class BedomningModule extends Module {
         bedomning { $("input", name:  "bedomning") }
     }
 
+    def valjBehorighet(Boolean value) {
+        if (value != null) {
+            AbstractPage.scrollIntoView("behorighet_bedomning");
+            behorighet = value;
+        }
+    }
+
     def valjBehorigheter(String valdaBehorigheter) {
         if (valdaBehorigheter != null) {
+            AbstractPage.scrollIntoView('korkortstyp0');
             am = false
             a1 = false
             a2 = false
@@ -287,15 +313,5 @@ class BedomningModule extends Module {
             if (behorigheter.contains("DE")) de = true
             if (behorigheter.contains("Taxi")) taxi = true
         }
-    }
-}
-
-class VardenhetModule extends Module {
-    static base = { $("#vardenhetForm") }
-    static content = {
-        postadress { $("#clinicInfoPostalAddress") }
-        postnummer { $("#clinicInfoPostalCode") }
-        postort { $("#clinicInfoPostalCity") }
-        telefonnummer { $("#clinicInfoPhone") }
     }
 }

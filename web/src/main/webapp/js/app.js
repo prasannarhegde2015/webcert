@@ -1,7 +1,7 @@
 /* global MODULE_CONFIG, wcMessages */
 window.name = 'NG_DEFER_BOOTSTRAP!'; // jshint ignore:line
 
-var app = angular.module('webcert', ['ui.bootstrap', 'ui.router', 'ngCookies', 'ngSanitize', 'common', 'ngAnimate']);
+var app = angular.module('webcert', ['ui.bootstrap', 'ui.router', 'ngCookies', 'ngSanitize', 'common', 'ngAnimate', 'smoothScroll']);
 
 app.config(['$httpProvider', 'common.http403ResponseInterceptorProvider',
     function($httpProvider, http403ResponseInterceptorProvider) {
@@ -110,8 +110,10 @@ app.run(['$log', '$rootScope', '$window', 'common.messageService', 'common.UserM
         UserModel.setUserContext(MODULE_CONFIG.USERCONTEXT);
         messageService.addResources(wcMessages);
 
+        $window.animations = 0;
         $window.doneLoading = false;
         $window.dialogDoneLoading = true;
+        $window.rendered = true;
 
         $rootScope.$on('$stateChangeStart',
             function(event, toState, toParams, fromState, fromParams){

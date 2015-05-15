@@ -1,5 +1,6 @@
 package se.inera.webcert.spec
 
+import se.inera.certificate.spec.Browser
 import se.inera.webcert.pages.VisaPage
 
 class VisaIntyg {
@@ -12,6 +13,7 @@ class VisaIntyg {
             }
         }
     }
+
 
     def skickaVisatIntyg() {
         Browser.drive {

@@ -1,13 +1,11 @@
 package se.inera.webcert.spec
 
+import se.inera.certificate.spec.Browser
 import se.inera.webcert.pages.*
-import se.inera.webcert.pages.fk7263.EditCertPage
 import se.inera.webcert.pages.fk7263.VisaFk7263Page
-import se.inera.webcert.pages.ts_bas.EditCertPage
 import se.inera.webcert.pages.ts_bas.VisaTsBasPage
 import se.inera.webcert.pages.ts_diabetes.EditCertPage
 import se.inera.webcert.pages.ts_diabetes.VisaTsDiabetesPage
-import org.openqa.selenium.Keys
 import se.inera.webcert.spec.util.WebcertRestUtils
 
 class SokSkrivIntyg {
@@ -109,11 +107,41 @@ class SokSkrivIntyg {
         true
     }
 
+    def ateraktiveraKopieraDialogen() {
+        Browser.deleteCookie("wc.dontShowCopyDialog");
+    }
+
+    def valjKopieraTidigareIntyg(String intygId) {
+        Browser.drive {
+            waitFor {
+                at SokSkrivValjIntygTypPage
+            }
+            page.copyBtn(intygId).click()
+            waitFor {
+                doneLoading()
+            }
+        }
+    }
+
+    def valjVisaInteIgenIDialogen() {
+        Browser.drive {
+            page.kopieraDialogVisaInteIgen.click()
+        }
+    }
+
+
+    def valjKopieraIDialogen() {
+        Browser.drive {
+            page.kopieraDialogKopieraKnapp.click()
+        }
+    }
+
     def kopieraTidigareIntyg(String intygId) {
         Browser.drive {
             waitFor {
                 page.copyBtn(intygId).isDisplayed()
             }
+            println('page ' + page);
             page.copy(intygId)
         }
     }
@@ -140,6 +168,22 @@ class SokSkrivIntyg {
         }
     }
 
+    def skickaDetVisadeIntygetAvTyp(String typ) {
+
+        Browser.drive {
+            waitFor {
+                if (typ == "fk7263") {
+                    at se.inera.webcert.pages.fk7263.VisaFk7263Page
+                } else if (typ == "ts-bas") {
+                    at se.inera.webcert.pages.ts_bas.VisaTsBasPage
+                } else if (typ == "ts-diabetes") {
+                    at se.inera.webcert.pages.ts_diabetes.VisaTsDiabetesPage
+                }
+                page.sendWithValidation()
+            }
+        }
+    }
+
     boolean skickaStatusVisas() {
         Browser.drive {
             waitFor {
@@ -147,6 +191,17 @@ class SokSkrivIntyg {
             }
         }
         true
+    }
+
+    boolean skickaStatusVisasMedRattMeddelande(boolean expected = true, String containsText) {
+
+        Browser.drive {
+
+            waitFor {
+                expected = page.certificateIsSentToRecipientMessage.text().contains(containsText)
+            }
+        }
+        expected
     }
 
     def oppnaKopieraDialogen() {
@@ -431,5 +486,27 @@ class SokSkrivIntyg {
             }
             true
         }
+    }
+
+    boolean kopieraKnappHarTextSjukskrivning() {
+        def result
+        Browser.drive {
+            waitFor {
+                result = page.kopieraKnapp.attr("title").contains("kopia skapas") &&
+                        page.kopieraKnapp.attr("title").contains("sjukskrivning")
+            }
+        }
+        return result
+    }
+
+    boolean kopieraKnappHarInteTextSjukskrivning() {
+        def result
+        Browser.drive {
+            waitFor {
+                result = page.kopieraKnapp.attr("title").contains("kopia skapas") &&
+                        !page.kopieraKnapp.attr("title").contains("sjukskrivning")
+            }
+        }
+        return result
     }
 }

@@ -53,8 +53,8 @@
 
 
 !3 Ta bort frågan
-| script | !-RensaFragorOchSvar-! |
-| ta bort alla fragor |
+| script | !-RensaFragorSvarTillFk-! |
+| rensa fragor |
 
 !3 Ta bort utkast
 

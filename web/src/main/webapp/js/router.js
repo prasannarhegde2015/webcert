@@ -36,15 +36,15 @@ angular.module('webcert').config(function($stateProvider, $urlRouterProvider) {
             controller: 'webcert.UnsignedCertCtrl'
         }).
         state('intyg', {
-            url:'/intyg/:certificateType/:certificateId?:patientId&:hospName',
+            url:'/intyg/:certificateType/:certificateId?:patientId&:hospName&:signed',
             views: {
                 '' : {
                     templateUrl: '/views/dashboard/view.certificate.html',
                     controller: 'webcert.ViewCertCtrl'
                 },
                 'header@intyg' : {
-                    templateUrl: '/web/webjars/common/webcert/intyg/view/intyg-view-header/intyg-view-header.html',
-                    controller: 'common.IntygViewHeader'
+                    templateUrl: '/web/webjars/common/webcert/intyg/intyg-header/intyg-header.html',
+                    controller: 'common.IntygHeader'
                 }
             }
         }).
@@ -56,8 +56,8 @@ angular.module('webcert').config(function($stateProvider, $urlRouterProvider) {
                     controller: 'webcert.ViewCertCtrl'
                 },
                 'header@fragasvar' : {
-                    templateUrl: '/web/webjars/common/webcert/intyg/view/intyg-view-header/intyg-view-header.html',
-                    controller: 'common.IntygViewHeader'
+                    templateUrl: '/web/webjars/common/webcert/intyg/intyg-header/intyg-header.html',
+                    controller: 'common.IntygHeader'
                 }
             }
         }).
@@ -69,8 +69,8 @@ angular.module('webcert').config(function($stateProvider, $urlRouterProvider) {
                     controller: 'webcert.ViewCertCtrl'
                 },
                 'header@fragasvar-qaonly' : {
-                    templateUrl: '/web/webjars/common/webcert/intyg/view/intyg-view-header/intyg-view-header.html',
-                    controller: 'common.IntygViewHeader'
+                    templateUrl: '/web/webjars/common/webcert/intyg/intyg-header/intyg-header.html',
+                    controller: 'common.IntygHeader'
                 }
             }
         }).

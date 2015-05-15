@@ -1,5 +1,6 @@
 package se.inera.webcert.spec
 
+import se.inera.certificate.spec.Browser
 import se.inera.webcert.pages.IndexPage
 import se.inera.webcert.pages.SokSkrivaIntygPage
 import se.inera.webcert.pages.UnhandledQAPage
@@ -29,6 +30,7 @@ class SvaraOchFraga {
         Browser.drive {
             go "/web/dashboard#/create/index"
         }
+        Thread.sleep(300);
     }
 
     boolean sokSkrivaIntygSidanVisas() {
@@ -87,7 +89,7 @@ class SvaraOchFraga {
         true
     }
 
-    def filtreraFragorOchSvar() {
+    def filtreraFragorOchSvar(boolean waitForTableToBeDisplayed = true) {
         Browser.drive {
             waitFor {
                 at UnhandledQAPage
@@ -95,14 +97,16 @@ class SvaraOchFraga {
             waitFor {
                 page.advancedFilterSearchBtn.click()
             }
-            waitFor {
-                page.unhandledQATable.isDisplayed()
+            if (waitForTableToBeDisplayed) {
+                waitFor {
+                    page.unhandledQATable.isDisplayed()
+                }
             }
         }
     }
 
     boolean fraganArSkickadTillFkMeddelandeVisas(boolean expected = true) {
-            def result = false
+        def result = false
         Browser.drive {
             waitFor {
                 at VisaFragaSvarPage
@@ -112,6 +116,16 @@ class SvaraOchFraga {
         result == expected
     }
 
+    def stangFkMeddelande() {
+        Browser.drive {
+            waitFor {
+                at VisaFragaSvarPage
+            }
+            waitFor {
+                page.closeSentMessage.click()
+            }
+        }
+    }
 
     def fragaMedTextVisasIListanMedOhanteradeFragor(String text) {
         Browser.drive {
@@ -204,6 +218,15 @@ class SvaraOchFraga {
             waitFor {
                 result = page.unhandledQATable.isDisplayed()
             }
+        }
+        result
+    }
+
+    boolean personnummerSynsForFraga(String internReferens) {
+        def result = false
+
+        Browser.drive {
+            result = page.patientIdSyns(internReferens)
         }
         result
     }
@@ -723,6 +746,7 @@ class SvaraOchFraga {
             waitFor {
                 page.tillbakaButtonClick()
             }
+            Thread.sleep(300);
         }
     }
 
@@ -821,4 +845,40 @@ class SvaraOchFraga {
             }
         }
     }
+
+    boolean infotextIngaFragarPaEnhetVisas(boolean expected = true) {
+        def result
+        Browser.drive {
+            waitFor {
+                at UnhandledQAPage
+            }
+            if (expected) {
+                waitFor {
+                    result = page.noResultsOnUnitInfo.isDisplayed()
+                }
+            } else {
+                result = page.noResultsOnUnitInfo.isDisplayed()
+            }
+        }
+        return result == expected
+    }
+
+    boolean infotextIngetSokresultatVisas(boolean expected = true) {
+        def result
+        Browser.drive {
+            waitFor {
+                at UnhandledQAPage
+            }
+            if (expected) {
+                waitFor {
+                    result = page.noResultsForQueryInfo.isDisplayed()
+                }
+            } else {
+                result = page.noResultsForQueryInfo.isDisplayed()
+            }
+        }
+        return result == expected
+    }
+
+
 }

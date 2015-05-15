@@ -1,11 +1,13 @@
 package se.inera.webcert.spec
 
+import se.inera.certificate.page.AbstractPage
+import se.inera.certificate.spec.Browser
+import se.inera.webcert.pages.*
 import se.inera.webcert.pages.fk7263.EditCertPage
 import se.inera.webcert.pages.fk7263.VisaFk7263Page
-
-import se.inera.webcert.pages.*
 import se.inera.webcert.pages.ts_bas.VisaTsBasPage
 import se.inera.webcert.pages.ts_diabetes.VisaTsDiabetesPage
+import se.inera.webcert.spec.util.WebcertRestUtils
 
 class HanteraUtkast {
 
@@ -33,7 +35,7 @@ class HanteraUtkast {
         Browser.drive {
             $("#showBtn-$intygsid").click()
             waitFor {
-                at se.inera.webcert.pages.fk7263.EditCertPage
+                at se.inera.webcert.pages.EditeraIntygPage
             }
         }
     }
@@ -47,16 +49,8 @@ class HanteraUtkast {
     }
 
     boolean ingaEjSigneradeIntygVisas() {
-        Browser.drive {
-            waitFor {
-                at UnsignedIntygPage
-            }
-            waitFor {
-                page.ingaEjSigneradeIntyg.isDisplayed()
-            }
-        }
+        return WebcertRestUtils.getNumberOfUnsignedCertificates() == 0
     }
-
 
     def gaTillEditeraIntygMedTypOchIntygid(String typ, String intygid) {
         Browser.drive {
@@ -130,6 +124,7 @@ class HanteraUtkast {
             waitFor {
                 page.konfirmeraRadera.click()
             }
+            Thread.sleep(300);
         }
     }
 
@@ -169,8 +164,6 @@ class HanteraUtkast {
                 at EditeraIntygPage
             }
             page.signeraBtn.click()
-            sleep(300)
-            page.konfirmeraSignera.click()
         }
     }
 
@@ -216,8 +209,8 @@ class HanteraUtkast {
     
     boolean felmeddelandeVisas(boolean expected = true) {
         Browser.drive {
-            at EditeraIntygPage
             waitFor {
+                at EditeraIntygPage
                 expected == page.errorPanel.isDisplayed()
             }
         }
@@ -238,6 +231,28 @@ class HanteraUtkast {
                 at SokSkrivaIntygPage
             }
         }
+    }
+
+    String kanInteTaStallningTsBas() {
+        def result
+        Browser.drive {
+            waitFor {
+                at se.inera.webcert.pages.ts_bas.EditCertPage
+            }
+            result = page.bedomning.behorighetGroup
+        }
+        result
+    }
+
+    String kanInteTaStallningTsDiabetes() {
+        def result
+        Browser.drive {
+            waitFor {
+                at se.inera.webcert.pages.ts_diabetes.EditCertPage
+            }
+            result = page.bedomning.behorighetGroup
+        }
+        result
     }
 
     String postadress() {
@@ -360,8 +375,11 @@ class HanteraUtkast {
             waitFor {
                 at EditeraIntygPage
             }
-            waitFor {
+            println("skrivUtBtn disabled : " + AbstractPage.isButtonDisabled(page.skrivUtBtn));
+            if(!AbstractPage.isButtonDisabled(page.sparaBtn)){
                 page.sparaBtn.click()
+            } else {
+                // utkast är redan sparat genom autospar
             }
         }
     }

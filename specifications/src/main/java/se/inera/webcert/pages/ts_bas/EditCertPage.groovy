@@ -2,8 +2,10 @@ package se.inera.webcert.pages.ts_bas
 
 import geb.Module
 import se.inera.certificate.page.AbstractPage
+import se.inera.webcert.pages.AbstractEditCertPage
+import se.inera.webcert.pages.VardenhetModule
 
-class EditCertPage extends AbstractPage {
+class EditCertPage extends AbstractEditCertPage {
 
     static at = { doneLoading() && $("#edit-ts-bas").isDisplayed() }
 
@@ -19,6 +21,7 @@ class EditCertPage extends AbstractPage {
         intygetEjKomplettMeddelande { $("#intyget-ej-komplett-meddelande") }
 
         // Formulärfält
+        form { $("form") }
         patient { module PatientModule }
         intygetAvser { module IntygetAvserModule }
         identitet { module IdentitetModule }
@@ -38,11 +41,13 @@ class EditCertPage extends AbstractPage {
         sjukhusvard { module SjukhusvardModule }
         medicinering { module MedicineringModule }
         kommentar { $("#kommentar") }
-        bedomning { module BedomningModule }
+
+        bedomning { name -> module BedomningModule, form: form }
+
         vardenhet { module VardenhetModule }
 
         // Intygsvalidering
-        valideringPatient(required: false)              { $("#validationMessages_patient") }
+        valideringPatient(required: false)              { $("#validationMessages_patientadress") }
         valideringIntygAvser(required: false)           { $("#validationMessages_intygavser") }
         valideringIdentitet(required: false)            { $("#validationMessages_identitet") }
         valideringSyn(required: false)                  { $("#validationMessages_syn") }
@@ -90,6 +95,7 @@ class IntygetAvserModule extends Module {
 
     def valjBehorigheter(String valdaBehorigheter) {
         if (valdaBehorigheter != null) {
+            AbstractPage.scrollIntoView('intygetAvserForm');
             c1 = false
             c1e = false
             c = false
@@ -102,6 +108,8 @@ class IntygetAvserModule extends Module {
             annat = false
 
             def behorigheter = valdaBehorigheter.split(",");
+
+            AbstractEditCertPage.scrollIntoView("intygetAvserForm");
 
             if (behorigheter.contains("C1")) c1 = true
             if (behorigheter.contains("C1E")) c1e = true
@@ -145,6 +153,7 @@ class IdentitetModule extends Module {
 
     def valjTyp(String identifieringstyp) {
         if (identifieringstyp != null) {
+            AbstractPage.scrollIntoView('identitetForm');
             def validTypes = ["idkort", "foretagskort", "korkort", "kannedom", "forsakran", "pass"]
             assert validTypes.contains(identifieringstyp),
                     "Fältet 'identifieringstyp' kan endast innehålla något av följande värden: ${validTypes}"
@@ -225,6 +234,7 @@ class DiabetesModule extends Module {
 
     def valjTyp(String valdDiabetestyp) {
         if (valdDiabetestyp != null) {
+            AbstractPage.scrollIntoView('diabetesForm');
             def validTypes = ["typ1", "typ2"]
             assert validTypes.contains(valdDiabetestyp),
                     "Fältet 'diabetestyp' kan endast innehålla något av följande värden: ${validTypes}"
@@ -319,9 +329,12 @@ class MedicineringModule extends Module {
 }
 
 class BedomningModule extends Module {
+    def form
     static base = { $("#bedomningForm") }
     static content = {
 
+        behorighet { $("input", name: "behorighet") }
+        behorighetGroup { form.behorighet }
         behorighetBedomning { $("#behorighet_bedomning") }
         behorighetKanInteTaStallning { $("#behorighet_kanintetastallning") }
         c1 { $("#korkortstyp0") }
@@ -337,8 +350,16 @@ class BedomningModule extends Module {
         specialist { $("#specialist") }
     }
 
+    def valjBehorighet(Boolean value) {
+        if (value != null) {
+            AbstractPage.scrollIntoView("behorighet_bedomning");
+            behorighet = value;
+        }
+    }
+
     def valjBehorigheter(String valdaBehorigheter) {
         if (valdaBehorigheter != null) {
+            AbstractPage.scrollIntoView('bedomningForm');
             c1 = false
             c1e = false
             c = false
@@ -363,15 +384,5 @@ class BedomningModule extends Module {
             if (behorigheter.contains("Taxi")) taxi = true
             if (behorigheter.contains("Annat")) annat = true
         }
-    }
-}
-
-class VardenhetModule extends Module {
-    static base = { $("#vardenhetForm") }
-    static content = {
-        postadress { $("#clinicInfoPostalAddress") }
-        postnummer { $("#clinicInfoPostalCode") }
-        postort { $("#clinicInfoPostalCity") }
-        telefonnummer { $("#clinicInfoPhone") }
     }
 }

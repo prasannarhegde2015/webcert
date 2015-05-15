@@ -13,9 +13,9 @@ import se.inera.log.messages.AbstractLogMessage;
 import se.inera.log.messages.Enhet;
 import se.inera.log.messages.Patient;
 import se.inera.logsender.exception.LoggtjanstExecutionException;
-import se.riv.ehr.log.store.storelog.v1.StoreLogRequestType;
-import se.riv.ehr.log.store.storelog.v1.StoreLogResponderInterface;
-import se.riv.ehr.log.store.storelog.v1.StoreLogResponseType;
+import se.riv.ehr.log.store.storelog.rivtabp21.v1.StoreLogResponderInterface;
+import se.riv.ehr.log.store.storelogresponder.v1.StoreLogRequestType;
+import se.riv.ehr.log.store.storelogresponder.v1.StoreLogResponseType;
 import se.riv.ehr.log.v1.ActivityType;
 import se.riv.ehr.log.v1.CareProviderType;
 import se.riv.ehr.log.v1.CareUnitType;
@@ -38,6 +38,7 @@ import javax.xml.ws.WebServiceException;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
+
 
 /**
  * @author andreaskaltenbach
@@ -238,7 +239,7 @@ public class LogSender {
                 session.commit();
                 return true;
             } catch (LoggtjanstExecutionException e) {
-                LOG.warn("Failed to send log entries to loggtjänst, JMS session will be rolled back.", e);
+                LOG.error("Failed to send log entries to loggtjänst, JMS session will be rolled back.", e);
                 session.rollback();
                 return false;
             }

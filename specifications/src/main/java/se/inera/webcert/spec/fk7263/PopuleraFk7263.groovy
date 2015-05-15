@@ -4,8 +4,9 @@ import org.joda.time.LocalDate
 import org.joda.time.format.DateTimeFormat
 import org.joda.time.format.DateTimeFormatter
 import org.openqa.selenium.Keys
+
 import se.inera.webcert.pages.fk7263.EditCertPage
-import se.inera.webcert.spec.Browser
+import se.inera.certificate.spec.Browser
 
 class PopuleraFk7263 {
 
@@ -80,7 +81,7 @@ class PopuleraFk7263 {
                 at EditCertPage
             }
 
-            if (smittskydd != null) page.setSmittskyddCheckBox(smittskydd)
+            if (smittskydd != null) page.setSmittskydd(smittskydd)
 
             if (undersokning != null){
                 page.baserasPa.setUndersokningCheckBox(undersokning)

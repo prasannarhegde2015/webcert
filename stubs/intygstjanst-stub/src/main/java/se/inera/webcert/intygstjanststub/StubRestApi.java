@@ -1,15 +1,16 @@
 package se.inera.webcert.intygstjanststub;
 
+import java.util.Collection;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.getcertificateforcare.v1.GetCertificateForCareResponseType;
+
+import se.inera.intyg.clinicalprocess.healthcond.certificate.getcertificateforcare.v1.GetCertificateForCareResponseType;
 import se.inera.webcert.intygstjanststub.mode.StubMode;
 import se.inera.webcert.intygstjanststub.mode.StubModeSingleton;
-
 /**
  * @author marced
  */

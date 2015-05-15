@@ -15,25 +15,20 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.w3.wsaddressing10.AttributedURIType;
 
-import se.inera.certificate.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareResponderInterface;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareResponseType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientResponderInterface;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientResponseType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.v1.ResultCodeType;
-import se.inera.certificate.logging.LogMarkers;
 import se.inera.certificate.model.Status;
 import se.inera.certificate.model.common.internal.Utlatande;
 import se.inera.certificate.model.common.internal.Vardenhet;
 import se.inera.certificate.modules.support.api.dto.CertificateResponse;
 import se.inera.certificate.modules.support.api.exception.ExternalServiceCallException;
 import se.inera.certificate.modules.support.api.exception.ModuleException;
-import se.inera.ifv.insuranceprocess.healthreporting.revokemedicalcertificate.v1.rivtabp20.RevokeMedicalCertificateResponderInterface;
+import se.inera.ifv.insuranceprocess.healthreporting.revokemedicalcertificate.rivtabp20.v1.RevokeMedicalCertificateResponderInterface;
 import se.inera.ifv.insuranceprocess.healthreporting.revokemedicalcertificateresponder.v1.RevokeMedicalCertificateRequestType;
 import se.inera.ifv.insuranceprocess.healthreporting.revokemedicalcertificateresponder.v1.RevokeMedicalCertificateResponseType;
 import se.inera.ifv.insuranceprocess.healthreporting.revokemedicalcertificateresponder.v1.RevokeType;
 import se.inera.ifv.insuranceprocess.healthreporting.v2.ResultOfCall;
+import se.inera.intyg.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientResponderInterface;
+import se.inera.intyg.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientResponseType;
+import se.inera.intyg.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientType;
 import se.inera.webcert.persistence.fragasvar.model.FragaSvar;
 import se.inera.webcert.persistence.utkast.model.Omsandning;
 import se.inera.webcert.persistence.utkast.model.OmsandningOperation;
@@ -54,8 +49,14 @@ import se.inera.webcert.service.intyg.dto.*;
 import se.inera.webcert.service.log.LogRequestFactory;
 import se.inera.webcert.service.log.LogService;
 import se.inera.webcert.service.log.dto.LogRequest;
+import se.inera.webcert.service.monitoring.MonitoringLogService;
 import se.inera.webcert.service.notification.NotificationService;
 import se.inera.webcert.web.service.WebCertUserService;
+import se.riv.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareResponderInterface;
+import se.riv.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareResponseType;
+import se.riv.clinicalprocess.healthcond.certificate.listcertificatesforcare.v1.ListCertificatesForCareType;
+import se.riv.clinicalprocess.healthcond.certificate.v1.ResultCodeType;
+
 
 /**
  * @author andreaskaltenbach
@@ -104,6 +105,9 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
 
     @Autowired
     private NotificationService notificationService;
+    
+    @Autowired
+    private MonitoringLogService monitoringService;
 
     @Autowired
     private FragaSvarService fragaSvarService;
@@ -111,12 +115,18 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
     /* --------------------- Public scope --------------------- */
 
     @Override
-    public IntygContentHolder fetchIntygData(String intygId, String typ) {
-        IntygContentHolder intygData = getIntygData(intygId, typ);
-        verifyEnhetsAuth(intygData.getUtlatande(), true);
-        LogRequest logRequest = LogRequestFactory.createLogRequestFromUtlatande(intygData.getUtlatande());
+    public IntygContentHolder fetchIntygData(String intygsId, String intygsTyp) {
+        IntygContentHolder intygsData = getIntygData(intygsId, intygsTyp);
+        verifyEnhetsAuth(intygsData.getUtlatande(), true);
+        
+        // Log read to PDL
+        LogRequest logRequest = LogRequestFactory.createLogRequestFromUtlatande(intygsData.getUtlatande());
         logService.logReadIntyg(logRequest);
-        return intygData;
+        
+        // Log read to monitoring log
+        monitoringService.logIntygRead(intygsId, intygsTyp);
+        
+        return intygsData;
     }
 
     @Override
@@ -164,18 +174,22 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
     }
 
     @Override
-    public IntygPdf fetchIntygAsPdf(String intygId, String intygTyp) {
+    public IntygPdf fetchIntygAsPdf(String intygsId, String intygsTyp) {
         try {
-            LOG.debug("Fetching intyg '{}' as PDF", intygId);
+            LOG.debug("Fetching intyg '{}' as PDF", intygsId);
 
-            IntygContentHolder intyg = getIntygDataPreferWebcert(intygId, intygTyp);
+            IntygContentHolder intyg = getIntygDataPreferWebcert(intygsId, intygsTyp);
 
             verifyEnhetsAuth(intyg.getUtlatande(), true);
 
-            IntygPdf intygPdf = modelFacade.convertFromInternalToPdfDocument(intygTyp, intyg.getContents(), intyg.getStatuses());
-
+            IntygPdf intygPdf = modelFacade.convertFromInternalToPdfDocument(intygsTyp, intyg.getContents(), intyg.getStatuses());
+            
+            // Log print as PDF to PDL log
             LogRequest logRequest = LogRequestFactory.createLogRequestFromUtlatande(intyg.getUtlatande());
             logService.logPrintIntygAsPDF(logRequest);
+            
+            // Log print as PDF to monitoring log
+            monitoringService.logIntygPrintPdf(intygsId, intygsTyp);
 
             return intygPdf;
 
@@ -187,7 +201,9 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
     @Override
     public IntygServiceResult storeIntyg(Utkast utkast) {
         Omsandning omsandning = createOmsandning(OmsandningOperation.STORE_INTYG, utkast.getIntygsId(), utkast.getIntygsTyp(), null);
-        LOG.info(LogMarkers.MONITORING, "Intyg '{}' registered with Intygstjänsten", utkast.getIntygsId());
+        
+        // Audit log
+        monitoringService.logIntygRegistered(utkast.getIntygsId(), utkast.getIntygsTyp());
 
         // Redan schedulerat för att skickas, men vi gör ett försök redan nu.
         return storeIntyg(utkast, omsandning);
@@ -210,7 +226,12 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
     }
 
     public IntygServiceResult storeIntyg(Omsandning omsandning) {
-        return storeIntyg(utkastRepository.findOne(omsandning.getIntygId()), omsandning);
+        Utkast utkast = utkastRepository.findOne(omsandning.getIntygId());
+        if (utkast == null) {
+            LOG.warn("Could not store intyg in Intygstjansten, no draft found for intyg id '{}'", omsandning.getIntygId());
+            return IntygServiceResult.FAILED;
+        }
+        return storeIntyg(utkast, omsandning);
     }
 
     public IntygServiceResult storeIntyg(Utkast utkast, Omsandning omsandning) {
@@ -245,7 +266,7 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
         SendIntygConfiguration sendConfig = new SendIntygConfiguration(recipient, hasPatientConsent, webCertUserService.getWebCertUser());
         String sendConfigAsJson = configurationManager.marshallConfig(sendConfig);
 
-        LOG.info(LogMarkers.MONITORING, "Intyg '{}' sent to recipient '{}'", intygsId, recipient);
+        monitoringService.logIntygSent(intygsId, recipient);
 
         // send PDL log event
         LogRequest logRequest = LogRequestFactory.createLogRequestFromUtlatande(intyg);
@@ -267,7 +288,6 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
     @Override
     public IntygServiceResult revokeIntyg(String intygsId, String intygsTyp, String revokeMessage) {
         LOG.debug("Attempting to revoke intyg {}", intygsId);
-
         IntygContentHolder intyg = getIntygData(intygsId, intygsTyp);
         verifyEnhetsAuth(intyg.getUtlatande(), true);
 
@@ -293,7 +313,7 @@ public class IntygServiceImpl implements IntygService, IntygOmsandningService {
         switch (resultOfCall.getResultCode()) {
         case OK:
             String hsaId = webCertUserService.getWebCertUser().getHsaId();
-            LOG.info(LogMarkers.MONITORING, "Intyg '{}' revoked by '{}'", intygsId, hsaId);
+            monitoringService.logIntygRevoked(intygsId, hsaId);
             return whenSuccessfulRevoke(intyg.getUtlatande());
         case INFO:
             LOG.warn("Call to revoke intyg {} returned an info message: {}", intygsId, resultOfCall.getInfoText());

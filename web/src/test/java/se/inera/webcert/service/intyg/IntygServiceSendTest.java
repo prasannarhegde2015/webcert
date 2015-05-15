@@ -16,9 +16,8 @@ import org.mockito.Spy;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import org.springframework.core.io.ClassPathResource;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientResponseType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientType;
-import se.inera.certificate.clinicalprocess.healthcond.certificate.v1.ErrorIdType;
+import se.inera.intyg.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientResponseType;
+import se.inera.intyg.clinicalprocess.healthcond.certificate.sendcertificatetorecipient.v1.SendCertificateToRecipientType;
 import se.inera.intyg.common.schemas.clinicalprocess.healthcond.certificate.utils.ResultTypeUtil;
 import se.inera.webcert.hsa.model.WebCertUser;
 import se.inera.webcert.persistence.utkast.model.Omsandning;
@@ -27,6 +26,8 @@ import se.inera.webcert.persistence.utkast.model.Utkast;
 import se.inera.webcert.service.exception.WebCertServiceException;
 import se.inera.webcert.service.intyg.dto.IntygServiceResult;
 import se.inera.webcert.service.log.dto.LogRequest;
+import se.riv.clinicalprocess.healthcond.certificate.v1.ErrorIdType;
+
 
 import java.io.IOException;
 
