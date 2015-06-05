@@ -2,28 +2,30 @@ package se.inera.auth;
 
 import static se.inera.webcert.hsa.stub.Medarbetaruppdrag.VARD_OCH_BEHANDLING;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
-
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.saml.SAMLCredential;
 import org.springframework.security.saml.userdetails.SAMLUserDetailsService;
-
 import se.inera.auth.exceptions.HsaServiceException;
 import se.inera.auth.exceptions.MissingMedarbetaruppdragException;
-import se.inera.ifv.hsawsresponder.v3.GetHsaPersonHsaUserType;
+import se.inera.webcert.hsa.model.Befattning;
 import se.inera.webcert.hsa.model.Vardenhet;
 import se.inera.webcert.hsa.model.Vardgivare;
 import se.inera.webcert.hsa.model.WebCertUser;
+import se.inera.webcert.hsa.services.GetEmployeeService;
 import se.inera.webcert.hsa.services.HsaOrganizationsService;
-import se.inera.webcert.hsa.services.HsaPersonService;
 import se.inera.webcert.service.feature.WebcertFeatureService;
 import se.inera.webcert.service.monitoring.MonitoringLogService;
+import se.riv.infrastructure.directory.v1.PaTitleType;
+import se.riv.infrastructure.directory.v1.PersonInformationType;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * @author andreaskaltenbach
@@ -38,11 +40,19 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
     private static final String LAKARE = "Läkare";
     private static final String LAKARE_CODE = "204010";
 
+    @Value("${hsa.ws.service.logicaladdress}")
+    private String hsaLogicalAddress;
+
     @Autowired
     private HsaOrganizationsService hsaOrganizationsService;
 
+/*
     @Autowired
     private HsaPersonService hsaPersonService;
+*/
+
+    @Autowired
+    private GetEmployeeService getEmployeeService;
 
     @Autowired
     private WebcertFeatureService webcertFeatureService;
@@ -56,8 +66,8 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
         LOG.info("User authentication was successful. SAML credential is: {}", credential);
 
         SakerhetstjanstAssertion assertion = new SakerhetstjanstAssertion(credential.getAuthenticationAssertion());
-        try {
 
+        try {
             WebCertUser webCertUser = createWebCertUser(assertion);
 
             // if user has authenticated with other contract than 'Vård och behandling', we have to reject her
@@ -98,7 +108,6 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
         webcertUser.setLakare(assertion.getTitel().contains(LAKARE) || assertion.getTitelKod().contains(LAKARE_CODE));
 
         decorateWebCertUserWithAdditionalInfo(webcertUser);
-
         decorateWebCertUserWithAvailableFeatures(webcertUser);
 
         return webcertUser;
@@ -106,23 +115,58 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
 
     private void decorateWebCertUserWithAdditionalInfo(WebCertUser webcertUser) {
 
-        String userHsaId = webcertUser.getHsaId();
+        String hsaId = webcertUser.getHsaId();
 
-        List<GetHsaPersonHsaUserType> hsaPersonInfo = hsaPersonService.getHsaPersonInfo(userHsaId);
+        List<PersonInformationType> employeeInfo = getEmployeeService.getEmployeeInformation(hsaLogicalAddress, hsaId, null);
 
-        if (hsaPersonInfo == null || hsaPersonInfo.isEmpty()) {
-            LOG.info("getHsaPersonInfo did not return any info for user '{}'", userHsaId);
+        if (employeeInfo == null || employeeInfo.isEmpty()) {
+            LOG.info("getEmployeeInformation did not return any info for employee '{}'", hsaId);
             return;
         }
 
-        List<String> specialiseringar = extractSpecialiseringar(hsaPersonInfo);
+        String titel = extractTitel(employeeInfo);
+        webcertUser.setTitel(titel);
+
+        List<Befattning> befattningar = extractBefattningar(employeeInfo);
+        webcertUser.setBefattningar(befattningar);
+
+        List<String> specialiseringar = extractSpecialiseringar(employeeInfo);
         webcertUser.setSpecialiseringar(specialiseringar);
 
-        List<String> legitimeradeYrkesgrupper = extractLegitimeradeYrkesgrupper(hsaPersonInfo);
+        List<String> legitimeradeYrkesgrupper = extractLegitimeradeYrkesgrupper(employeeInfo);
         webcertUser.setLegitimeradeYrkesgrupper(legitimeradeYrkesgrupper);
 
-        String titel = extractTitel(hsaPersonInfo);
-        webcertUser.setTitel(titel);
+    }
+
+    private List<Befattning> extractBefattningar(List<PersonInformationType> informationTypes) {
+
+        Set<Befattning> befattningar = new TreeSet<>();
+
+        for (PersonInformationType informationType : informationTypes) {
+            if (informationType.getPaTitle() != null) {
+                befattningar.addAll(mapPaTitles(informationType.getPaTitle()));
+            }
+        }
+
+        return new ArrayList<Befattning>(befattningar);
+    }
+
+    private List<Befattning> mapPaTitles(List<PaTitleType> types) {
+        List<Befattning> befattningar = new ArrayList<Befattning>();
+
+        for (PaTitleType type : types) {
+            befattningar.add(createBefattning(type));
+        }
+
+        return befattningar;
+    }
+
+    private Befattning createBefattning(PaTitleType titleType) {
+        Befattning b = new Befattning();
+        b.setCode(titleType.getPaTitleCode());
+        b.setDescription(titleType.getPaTitleName());
+
+        return b;
     }
 
     private void decorateWebCertUserWithAvailableFeatures(WebCertUser webcertUser) {
@@ -132,6 +176,20 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
         webcertUser.setAktivaFunktioner(availableFeatures);
     }
 
+    private String extractTitel(List<PersonInformationType> informationTypes) {
+
+        List<String> titlar = new ArrayList<String>();
+
+        for (PersonInformationType type : informationTypes) {
+            if (StringUtils.isNotBlank(type.getTitle())) {
+                titlar.add(type.getTitle());
+            }
+        }
+
+        return StringUtils.join(titlar, COMMA);
+    }
+
+/*
     private String extractTitel(List<GetHsaPersonHsaUserType> hsaUserTypes) {
 
         List<String> titlar = new ArrayList<String>();
@@ -144,7 +202,22 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
 
         return StringUtils.join(titlar, COMMA);
     }
+*/
 
+    private List<String> extractLegitimeradeYrkesgrupper(List<PersonInformationType> informationTypes) {
+
+        Set<String> lygSet = new TreeSet<>();
+
+        for (PersonInformationType type : informationTypes) {
+            if (type.getHealthCareProfessionalLicence() != null) {
+                lygSet.addAll(type.getHealthCareProfessionalLicence());
+            }
+        }
+
+        return new ArrayList<String>(lygSet);
+    }
+
+/*
     private List<String> extractLegitimeradeYrkesgrupper(List<GetHsaPersonHsaUserType> hsaUserTypes) {
 
         Set<String> lygSet = new TreeSet<>();
@@ -160,7 +233,22 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
 
         return list;
     }
+*/
 
+    private List<String> extractSpecialiseringar(List<PersonInformationType> informationTypes) {
+
+        Set<String> specSet = new TreeSet<>();
+
+        for (PersonInformationType type : informationTypes) {
+            if (type.getSpecialityName() != null) {
+                specSet.addAll(type.getSpecialityName());
+            }
+        }
+
+        return new ArrayList<String>(specSet);
+    }
+
+/*
     private List<String> extractSpecialiseringar(List<GetHsaPersonHsaUserType> hsaUserTypes) {
 
         Set<String> specSet = new TreeSet<>();
@@ -176,6 +264,7 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
 
         return list;
     }
+*/
 
     private String compileName(SakerhetstjanstAssertion assertion) {
 
@@ -227,4 +316,5 @@ public class WebCertUserDetailsService implements SAMLUserDetailsService {
 
         return true;
     }
+
 }

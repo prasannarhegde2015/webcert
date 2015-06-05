@@ -41,13 +41,12 @@ import se.inera.ifv.hsawsresponder.v3.PingType;
 
 public class HSAWebServiceCalls {
 
+    private static final Logger LOG = LoggerFactory.getLogger(HSAWebServiceCalls.class);
+
     @Autowired
     private HsaWsResponderInterface serverInterface;
 
-    private static final Logger LOG = LoggerFactory.getLogger(HSAWebServiceCalls.class);
-
     private AttributedURIType logicalAddressHeader = new AttributedURIType();
-
     private AttributedURIType messageId = new AttributedURIType();
 
     /**

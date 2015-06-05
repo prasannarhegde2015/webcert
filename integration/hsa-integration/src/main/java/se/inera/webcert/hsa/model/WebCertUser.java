@@ -21,31 +21,28 @@ public class WebCertUser implements Serializable {
 
     private String hsaId;
     private String namn;
-    private boolean lakare;
     private String forskrivarkod;
     private String authenticationScheme;
-
-    private List<Vardgivare> vardgivare;
-
-    private List<String> specialiseringar;
-
     private String titel;
 
+    private boolean lakare;
+
+    private List<Vardgivare> vardgivare;
+    private List<String> specialiseringar;
     private List<String> legitimeradeYrkesgrupper;
-
-    private SelectableVardenhet valdVardenhet;
-
-    private SelectableVardenhet valdVardgivare;
+    private List<Befattning> befattningar;
 
     private Set<String> aktivaFunktioner;
 
-    public String getHsaId() {
-        return hsaId;
-    }
+    private SelectableVardenhet valdVardenhet;
+    private SelectableVardenhet valdVardgivare;
 
-    public void setHsaId(String hsaId) {
-        this.hsaId = hsaId;
-    }
+
+    // -- Getters and setters
+
+    public String getHsaId() { return hsaId; }
+
+    public void setHsaId(String hsaId) { this.hsaId = hsaId; }
 
     public String getNamn() {
         return namn;
@@ -63,32 +60,6 @@ public class WebCertUser implements Serializable {
         this.lakare = lakare;
     }
 
-    public List<Vardgivare> getVardgivare() {
-
-        if (vardgivare == null) {
-            vardgivare = Collections.emptyList();
-        }
-
-        return vardgivare;
-    }
-
-    public void setVardgivare(List<Vardgivare> vardgivare) {
-        this.vardgivare = vardgivare;
-    }
-
-    public List<String> getSpecialiseringar() {
-
-        if (specialiseringar == null) {
-            specialiseringar = Collections.emptyList();
-        }
-
-        return specialiseringar;
-    }
-
-    public void setSpecialiseringar(List<String> specialiseringar) {
-        this.specialiseringar = specialiseringar;
-    }
-
     public String getTitel() {
         return titel;
     }
@@ -97,12 +68,44 @@ public class WebCertUser implements Serializable {
         this.titel = titel;
     }
 
+    public List<Befattning> getBefattningar() {
+        if (befattningar == null) {
+            befattningar = Collections.emptyList();
+        }
+        return befattningar;
+    }
+
+    public void setBefattningar(List<Befattning> befattningar) {
+        this.befattningar = befattningar;
+    }
+
+    public List<Vardgivare> getVardgivare() {
+        if (vardgivare == null) {
+            vardgivare = Collections.emptyList();
+        }
+        return vardgivare;
+    }
+
+    public void setVardgivare(List<Vardgivare> vardgivare) {
+        this.vardgivare = vardgivare;
+    }
+
+    public List<String> getSpecialiseringar() {
+        if (specialiseringar == null) {
+            specialiseringar = Collections.emptyList();
+        }
+        return specialiseringar;
+    }
+
+    public void setSpecialiseringar(List<String> specialiseringar) {
+        this.specialiseringar = specialiseringar;
+    }
+
     public List<String> getLegitimeradeYrkesgrupper() {
 
         if (legitimeradeYrkesgrupper == null) {
             legitimeradeYrkesgrupper = Collections.emptyList();
         }
-
         return legitimeradeYrkesgrupper;
     }
 
@@ -146,7 +149,6 @@ public class WebCertUser implements Serializable {
         if (aktivaFunktioner == null) {
             aktivaFunktioner = new HashSet<String>();
         }
-
         return aktivaFunktioner;
     }
 
@@ -157,6 +159,9 @@ public class WebCertUser implements Serializable {
     public boolean hasAktivFunktion(String aktivFunktion) {
         return getAktivaFunktioner().contains(aktivFunktion);
     }
+
+
+    // -- Public scope
 
     @JsonIgnore
     public String getAsJson() {
