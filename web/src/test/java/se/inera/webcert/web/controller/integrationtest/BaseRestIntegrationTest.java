@@ -16,10 +16,11 @@ import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 
 /**
- * Base class for REST-ish integrationTests using RestAssured.
+ * Base class for "REST-ish" integrationTests using RestAssured.
+ * 
  * Created by marced on 19/11/15.
  */
-public class BaseRestIntegrationTest {
+public abstract class BaseRestIntegrationTest {
 
     private static final String USER_JSON_FORM_PARAMETER = "userJsonDisplay";
     private static final String FAKE_LOGIN_URI = "/fake";
@@ -45,7 +46,8 @@ public class BaseRestIntegrationTest {
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
-        Response response = given().redirects().follow(false).log().all().contentType(ContentType.URLENC).formParam(USER_JSON_FORM_PARAMETER, credentialsJson).expect()
+        Response response = given().redirects().follow(false).log().all().contentType(ContentType.URLENC)
+                .formParam(USER_JSON_FORM_PARAMETER, credentialsJson).expect()
                 .statusCode(HttpServletResponse.SC_FOUND).when()
                 .post(FAKE_LOGIN_URI).then().log().all().extract().response();
 

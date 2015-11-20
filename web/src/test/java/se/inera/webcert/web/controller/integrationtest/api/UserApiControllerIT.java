@@ -45,7 +45,8 @@ public class UserApiControllerIT extends BaseRestIntegrationTest {
          *
          * assertTrue(matchesJsonSchemaInClasspath("jsonschema/webcert-user-schema.json").matches(response.body().asString
          * ()));
-         *  // Got problems when deserialising the userRoles enum, otherwise this is a nicer way when we have a dto
+         *  // Got problems when deserialising the userRoles enum, otherwise this is a nicer way when we have a
+         *  // dto backing the response:
          *  // WebCertUser webCertUser = given().expect().statusCode(200).when().get("api/anvandare").as(WebCertUser.class);
          */
     }
