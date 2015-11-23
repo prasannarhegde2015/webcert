@@ -8,9 +8,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import se.inera.auth.FakeCredentials;
 import se.inera.certificate.modules.support.api.dto.Personnummer;
-import se.inera.webcert.web.controller.api.dto.CreateUtkastRequest;
+import se.inera.intyg.webcert.web.auth.FakeCredentials;
+import se.inera.intyg.webcert.web.web.controller.api.dto.CreateUtkastRequest;
 import se.inera.webcert.web.controller.integrationtest.BaseRestIntegrationTest;
 
 import com.jayway.restassured.RestAssured;

@@ -7,13 +7,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.junit.Before;
 
-import se.inera.auth.FakeCredentials;
 import se.inera.certificate.integration.json.CustomObjectMapper;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
+import se.inera.intyg.webcert.web.auth.FakeCredentials;
 
 /**
  * Base class for "REST-ish" integrationTests using RestAssured.

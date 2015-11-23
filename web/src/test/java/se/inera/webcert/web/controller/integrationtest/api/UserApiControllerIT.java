@@ -6,10 +6,10 @@ import static org.hamcrest.core.IsEqual.equalTo;
 
 import org.junit.Test;
 
-import se.inera.auth.FakeCredentials;
+import se.inera.intyg.webcert.web.auth.FakeCredentials;
+import se.inera.webcert.web.controller.integrationtest.BaseRestIntegrationTest;
 
 import com.jayway.restassured.RestAssured;
-import se.inera.webcert.web.controller.integrationtest.BaseRestIntegrationTest;
 
 /**
  * Created by marced on 17/11/15.
@@ -36,18 +36,19 @@ public class UserApiControllerIT extends BaseRestIntegrationTest {
          * One could also use the more verbose old-school unit-test assertionstyle...
          * 
          * JsonPath jsonPath = new JsonPath(response.body().asString());
-         *
+         * 
          * assertEquals(defaultLakare.getHsaId(), jsonPath.getString("hsaId"));
          * assertEquals(defaultLakare.getEnhetId(), jsonPath.getString("valdVardenhet.id"));
          * assertEquals(defaultLakare.getFornamn() + " " + defaultLakare.getEfternamn(), jsonPath.getString("namn"));
          * //We COULD do more asserts, but a bit problematic since most user properties are actually set by the hsastub
          * //and asserting such values bind this test to stub testdata configuration..
-         *
+         * 
          * assertTrue(matchesJsonSchemaInClasspath("jsonschema/webcert-user-schema.json").matches(response.body().asString
          * ()));
-         *  // Got problems when deserialising the userRoles enum, otherwise this is a nicer way when we have a
-         *  // dto backing the response:
-         *  // WebCertUser webCertUser = given().expect().statusCode(200).when().get("api/anvandare").as(WebCertUser.class);
+         * // Got problems when deserialising the userRoles enum, otherwise this is a nicer way when we have a
+         * // dto backing the response:
+         * // WebCertUser webCertUser =
+         * given().expect().statusCode(200).when().get("api/anvandare").as(WebCertUser.class);
          */
     }
 
