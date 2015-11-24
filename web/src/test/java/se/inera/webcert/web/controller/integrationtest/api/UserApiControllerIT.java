@@ -56,7 +56,7 @@ public class UserApiControllerIT extends BaseRestIntegrationTest {
     public void testGetAnvandareNotLoggedIn() {
 
         // set up auth precondition
-        RestAssured.sessionId = "";
+        RestAssured.sessionId = null;
 
         given().expect().statusCode(403).when().get("api/anvandare");
     }

@@ -8,12 +8,12 @@ import javax.servlet.http.HttpServletResponse;
 import org.junit.Before;
 
 import se.inera.certificate.integration.json.CustomObjectMapper;
+import se.inera.intyg.webcert.web.auth.FakeCredentials;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
-import se.inera.intyg.webcert.web.auth.FakeCredentials;
 
 /**
  * Base class for "REST-ish" integrationTests using RestAssured.
@@ -29,6 +29,7 @@ public abstract class BaseRestIntegrationTest {
 
     @Before
     public void setup() {
+        RestAssured.reset();
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
         RestAssured.baseURI = System.getProperty("integration.tests.baseUrl");
     }
@@ -36,11 +37,11 @@ public abstract class BaseRestIntegrationTest {
     /**
      * Log in to webcert using the supplied credentials.
      *
-     * @param fakeCredentials
+     * @param fakeCredentials who to log in as
      * @return sessionId for the now authorized user
      */
     public String getAuthSession(FakeCredentials fakeCredentials) {
-        String credentialsJson = null;
+        String credentialsJson;
         try {
             credentialsJson = objectMapper.writeValueAsString(fakeCredentials);
         } catch (JsonProcessingException e) {
