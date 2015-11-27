@@ -1,6 +1,6 @@
 package se.inera.intyg.webcert.web.web.controller.legacyintegration;
 
-import static se.inera.certificate.common.enumerations.CertificateTypes.FK7263;
+import static se.inera.intyg.common.support.common.enumerations.CertificateTypes.FK7263;
 
 import java.net.URI;
 import java.util.HashMap;
@@ -18,7 +18,7 @@ import javax.ws.rs.core.UriInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import se.inera.webcert.common.security.authority.UserRole;
+import se.inera.intyg.webcert.common.common.security.authority.UserRole;
 import se.inera.intyg.webcert.web.web.controller.integration.BaseIntegrationController;
 import io.swagger.annotations.Api;
 

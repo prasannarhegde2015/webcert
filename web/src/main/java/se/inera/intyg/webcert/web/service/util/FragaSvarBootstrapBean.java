@@ -12,9 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
-import se.inera.certificate.integration.json.CustomObjectMapper;
-import se.inera.webcert.persistence.fragasvar.model.FragaSvar;
-import se.inera.webcert.persistence.fragasvar.repository.FragaSvarRepository;
+import se.inera.intyg.common.util.integration.integration.json.CustomObjectMapper;
+import se.inera.intyg.webcert.persistence.fragasvar.model.FragaSvar;
+import se.inera.intyg.webcert.persistence.fragasvar.repository.FragaSvarRepository;
 
 public class FragaSvarBootstrapBean {
     private static final Logger LOG = LoggerFactory.getLogger(FragaSvarBootstrapBean.class);

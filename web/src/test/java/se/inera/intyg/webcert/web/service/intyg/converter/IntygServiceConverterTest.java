@@ -9,11 +9,11 @@ import org.apache.commons.io.IOUtils;
 import org.joda.time.LocalDateTime;
 import org.junit.Test;
 import org.springframework.core.io.ClassPathResource;
-import se.inera.certificate.integration.json.CustomObjectMapper;
-import se.inera.certificate.model.common.internal.Utlatande;
+import se.inera.intyg.common.util.integration.integration.json.CustomObjectMapper;
+import se.inera.intyg.common.support.model.common.internal.Utlatande;
 import se.inera.ifv.insuranceprocess.healthreporting.sendmedicalcertificateresponder.v1.SendType;
-import se.inera.webcert.persistence.utkast.model.Utkast;
-import se.inera.webcert.service.exception.WebCertServiceException;
+import se.inera.intyg.webcert.persistence.utkast.model.Utkast;
+import se.inera.intyg.webcert.common.service.exception.WebCertServiceException;
 import se.inera.intyg.webcert.web.service.intyg.converter.IntygServiceConverterImpl.Operation;
 
 import java.io.IOException;

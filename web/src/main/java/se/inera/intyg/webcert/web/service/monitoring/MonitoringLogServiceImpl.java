@@ -22,9 +22,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import se.inera.certificate.logging.HashUtility;
-import se.inera.certificate.logging.LogMarkers;
-import se.inera.certificate.modules.support.api.dto.Personnummer;
+import se.inera.intyg.common.util.logging.HashUtility;
+import se.inera.intyg.common.util.logging.LogMarkers;
+import se.inera.intyg.common.support.modules.support.api.dto.Personnummer;
 
 @Service
 public class MonitoringLogServiceImpl implements MonitoringLogService {

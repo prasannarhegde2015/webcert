@@ -40,11 +40,11 @@ import org.slf4j.Logger;
 import org.springframework.core.io.ClassPathResource;
 import org.w3.wsaddressing10.AttributedURIType;
 
-import se.inera.certificate.integration.json.CustomObjectMapper;
-import se.inera.certificate.model.CertificateState;
-import se.inera.certificate.model.common.internal.Utlatande;
-import se.inera.certificate.modules.support.api.dto.Personnummer;
-import se.inera.certificate.modules.support.feature.ModuleFeature;
+import se.inera.intyg.common.util.integration.integration.json.CustomObjectMapper;
+import se.inera.intyg.common.support.model.CertificateState;
+import se.inera.intyg.common.support.model.common.internal.Utlatande;
+import se.inera.intyg.common.support.modules.support.api.dto.Personnummer;
+import se.inera.intyg.common.support.modules.support.feature.ModuleFeature;
 import se.inera.ifv.insuranceprocess.healthreporting.sendmedicalcertificateanswer.rivtabp20.v1.SendMedicalCertificateAnswerResponderInterface;
 import se.inera.ifv.insuranceprocess.healthreporting.sendmedicalcertificateanswerresponder.v1.SendMedicalCertificateAnswerResponseType;
 import se.inera.ifv.insuranceprocess.healthreporting.sendmedicalcertificateanswerresponder.v1.SendMedicalCertificateAnswerType;
@@ -52,20 +52,20 @@ import se.inera.ifv.insuranceprocess.healthreporting.sendmedicalcertificatequest
 import se.inera.ifv.insuranceprocess.healthreporting.sendmedicalcertificatequestionresponder.v1.SendMedicalCertificateQuestionResponseType;
 import se.inera.ifv.insuranceprocess.healthreporting.sendmedicalcertificatequestionresponder.v1.SendMedicalCertificateQuestionType;
 import se.inera.intyg.common.schemas.insuranceprocess.healthreporting.utils.ResultOfCallUtil;
-import se.inera.webcert.common.security.authority.UserPrivilege;
-import se.inera.webcert.common.security.authority.UserRole;
+import se.inera.intyg.webcert.common.common.security.authority.UserPrivilege;
+import se.inera.intyg.webcert.common.common.security.authority.UserRole;
 import se.inera.webcert.hsa.model.Vardenhet;
 import se.inera.webcert.hsa.model.Vardgivare;
-import se.inera.webcert.persistence.fragasvar.model.Amne;
-import se.inera.webcert.persistence.fragasvar.model.FragaSvar;
-import se.inera.webcert.persistence.fragasvar.model.IntygsReferens;
-import se.inera.webcert.persistence.fragasvar.model.Komplettering;
-import se.inera.webcert.persistence.fragasvar.model.Status;
-import se.inera.webcert.persistence.fragasvar.model.Vardperson;
-import se.inera.webcert.persistence.fragasvar.repository.FragaSvarFilter;
-import se.inera.webcert.persistence.fragasvar.repository.FragaSvarRepository;
+import se.inera.intyg.webcert.persistence.fragasvar.model.Amne;
+import se.inera.intyg.webcert.persistence.fragasvar.model.FragaSvar;
+import se.inera.intyg.webcert.persistence.fragasvar.model.IntygsReferens;
+import se.inera.intyg.webcert.persistence.fragasvar.model.Komplettering;
+import se.inera.intyg.webcert.persistence.fragasvar.model.Status;
+import se.inera.intyg.webcert.persistence.fragasvar.model.Vardperson;
+import se.inera.intyg.webcert.persistence.fragasvar.repository.FragaSvarFilter;
+import se.inera.intyg.webcert.persistence.fragasvar.repository.FragaSvarRepository;
 import se.inera.intyg.webcert.web.service.dto.Lakare;
-import se.inera.webcert.service.exception.WebCertServiceException;
+import se.inera.intyg.webcert.common.service.exception.WebCertServiceException;
 import se.inera.intyg.webcert.web.service.feature.WebcertFeatureService;
 import se.inera.intyg.webcert.web.service.fragasvar.dto.FrageStallare;
 import se.inera.intyg.webcert.web.service.fragasvar.dto.QueryFragaSvarParameter;
@@ -495,23 +495,23 @@ public class FragaSvarServiceImplTest {
     }
 
     private IntygContentHolder getIntygContentHolder() {
-        List<se.inera.certificate.model.Status> status = new ArrayList<>();
-        status.add(new se.inera.certificate.model.Status(CertificateState.RECEIVED, "MI", LocalDateTime.now()));
-        status.add(new se.inera.certificate.model.Status(CertificateState.SENT, "FK", LocalDateTime.now()));
+        List<se.inera.intyg.common.support.model.Status> status = new ArrayList<>();
+        status.add(new se.inera.intyg.common.support.model.Status(CertificateState.RECEIVED, "MI", LocalDateTime.now()));
+        status.add(new se.inera.intyg.common.support.model.Status(CertificateState.SENT, "FK", LocalDateTime.now()));
         return new IntygContentHolder("<external-json/>", getUtlatande(), status, false);
     }
 
     private IntygContentHolder getUnsentIntygContentHolder() {
-        List<se.inera.certificate.model.Status> status = new ArrayList<>();
-        status.add(new se.inera.certificate.model.Status(CertificateState.RECEIVED, "MI", LocalDateTime.now()));
+        List<se.inera.intyg.common.support.model.Status> status = new ArrayList<>();
+        status.add(new se.inera.intyg.common.support.model.Status(CertificateState.RECEIVED, "MI", LocalDateTime.now()));
         return new IntygContentHolder("<external-json/>", getUtlatande(), status, false);
     }
 
     private IntygContentHolder getRevokedIntygContentHolder() {
-        List<se.inera.certificate.model.Status> status = new ArrayList<>();
-        status.add(new se.inera.certificate.model.Status(CertificateState.RECEIVED, "MI", LocalDateTime.now()));
-        status.add(new se.inera.certificate.model.Status(CertificateState.SENT, "FK", LocalDateTime.now()));
-        status.add(new se.inera.certificate.model.Status(CertificateState.CANCELLED, "MI", LocalDateTime.now()));
+        List<se.inera.intyg.common.support.model.Status> status = new ArrayList<>();
+        status.add(new se.inera.intyg.common.support.model.Status(CertificateState.RECEIVED, "MI", LocalDateTime.now()));
+        status.add(new se.inera.intyg.common.support.model.Status(CertificateState.SENT, "FK", LocalDateTime.now()));
+        status.add(new se.inera.intyg.common.support.model.Status(CertificateState.CANCELLED, "MI", LocalDateTime.now()));
         return new IntygContentHolder("<external-json/>", getUtlatande(), status, true);
     }
 

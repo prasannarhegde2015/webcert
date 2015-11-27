@@ -11,22 +11,20 @@ import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import se.inera.certificate.integration.json.CustomObjectMapper;
+import se.inera.intyg.common.util.integration.integration.json.CustomObjectMapper;
 import se.inera.webcert.hsa.model.Vardgivare;
 import se.inera.webcert.hsa.stub.HsaServiceStub;
 import se.inera.intyg.webcert.mailstub.MailStore;
 import se.inera.intyg.webcert.mailstub.OutgoingMail;
-import se.inera.webcert.persistence.fragasvar.model.FragaSvar;
-import se.inera.webcert.persistence.fragasvar.model.IntygsReferens;
-import se.inera.webcert.persistence.fragasvar.model.Vardperson;
-import se.inera.intyg.webcert.web.service.user.WebCertUserService;
-import se.inera.intyg.webcert.web.service.user.dto.WebCertUser;
+import se.inera.intyg.webcert.persistence.fragasvar.model.FragaSvar;
+import se.inera.intyg.webcert.persistence.fragasvar.model.IntygsReferens;
+import se.inera.intyg.webcert.persistence.fragasvar.model.Vardperson;
+import se.inera.intyg.webcert.persistence.utkast.repository.UtkastRepository;
 
 /**
  * @author andreaskaltenbach
@@ -52,17 +50,11 @@ public class MailNotificationServiceTest {
     @Autowired
     private HsaServiceStub hsaStub;
 
-    @Autowired
-    private WebCertUserService webCertUserServiceMock;
-
     @PostConstruct
     public void setupTestlandVardgivare() throws IOException {
         Vardgivare vardgivare = new CustomObjectMapper().readValue(new ClassPathResource(
                 "MailNotificationServiceTest/landstinget-testland.json").getFile(), Vardgivare.class);
         hsaStub.getVardgivare().add(vardgivare);
-        final WebCertUser user = Mockito.mock(WebCertUser.class);
-        Mockito.when(user.isRoleUthopp()).thenReturn(true);
-        Mockito.when(webCertUserServiceMock.getUser()).thenReturn(user);
     }
 
     @Test
