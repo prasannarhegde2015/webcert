@@ -128,8 +128,8 @@ public class FmbApiController extends AbstractApiController {
         final List<FmbForm> forms = new ArrayList<>(FmbFormName.values().length);
         forms.add(getFmbForm(icd10, FmbFormName.DIAGNOS, FmbType.FALT2_SPB, FmbType.FALT2_GENERAL));
         forms.add(getFmbForm(icd10, FmbFormName.FUNKTIONSNEDSATTNING, FmbType.FALT4));
-        forms.add(getFmbForm(icd10, FmbFormName.AKTIVITETSERSATTNING, FmbType.FALT5));
-        forms.add(getFmbForm(icd10, FmbFormName.ARBETSFORMOGA, FmbType.FALT8B));
+        forms.add(getFmbForm(icd10, FmbFormName.ARBETSFORMOGA, FmbType.FALT5));
+        forms.add(getFmbForm(icd10, FmbFormName.AKTIVITETSBEGRANSNING, FmbType.FALT8B));
         return new FmbResponse(icd10, Lists.newArrayList(Iterables.filter(forms, Predicates.notNull())));
     }
 
