@@ -17,18 +17,21 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+
+
 'use strict';
 
-module.exports = {
-    fk: {
-        '7263': require('./fk.7263.js'),
-        LUSE: require('./fk.LUSE.js'),
-        LISU: require('./fk.LISU.js'),
-        LUAE_FS: require('./fk.LUAE_FS.js')
+var BaseIntygPage = require('./base.intyg.page.js');
+
+var LuaefsIntyg = BaseIntygPage._extend({
+    init: function init() {
+        init._super.call(this);
+        this.at = element(by.id('viewCertAndQA'));
+        this.intygType = 'luae_fs';
     },
-    ts: {
-        bas: require('./ts.bas.js'),
-        diabetes: require('./ts.diabetes.js')
-    },
-    values: require('./testvalues.js')
-};
+
+    get: function get(intygId) {
+        get._super.call(this, intygId);
+    }
+});
+module.exports = new LuaefsIntyg();

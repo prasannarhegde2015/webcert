@@ -258,6 +258,11 @@
         <artifactId>ts-diabetes</artifactId>
         <version>${intygstyper.version}</version>
       </dependency>
+      <dependency>
+        <groupId>se.inera.intyg.intygstyper</groupId>
+        <artifactId>luae_fs</artifactId>
+        <version>${intygstyper.version}</version>
+      </dependency>
 
       <!-- HSA Schemas -->
       <dependency>
