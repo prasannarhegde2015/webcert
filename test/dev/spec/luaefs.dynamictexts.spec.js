@@ -29,7 +29,7 @@ var intygFromJsonFactory = wcTestTools.intygFromJsonFactory;
 var restUtil = wcTestTools.restUtil;
 
 // Use fdescribe to run in isolation.
-describe('Create luae_fs utkast and check dynamic texts', function() {
+fdescribe('Create luae_fs utkast and check dynamic texts', function() {
 
     var utkast = null;
     var intyg = null;
