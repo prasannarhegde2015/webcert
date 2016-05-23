@@ -331,4 +331,5673 @@ Scenario: Jag befinner mig på webcerts förstasidae
 
 Scenario: Jag befinner mig på webcerts förstasidae
 	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
 
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+	
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
+
+Scenario: Jag befinner mig på webcerts förstasidae
+	Givet att jag är inloggad som läkare
