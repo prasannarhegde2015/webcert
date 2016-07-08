@@ -20,6 +20,7 @@ package se.inera.intyg.webcert.notification_sender.notifications.services;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Message;
+import org.apache.camel.impl.DefaultExchangeHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import se.inera.intyg.webcert.notification_sender.notifications.filter.NotificationMessageDiscardFilter;
@@ -45,21 +46,22 @@ public class NotificationAggregator {
 
     public List<Message> process(Exchange exchange) throws Exception {
 
-        // Extract the list of exchanges (i.e. messages) from the Exchange.GROUPED_EXCHANGE property.
-        List<Exchange> grouped = exchange.getProperty(Exchange.GROUPED_EXCHANGE, List.class);
+        List<DefaultExchangeHolder> grouped = exchange.getIn().getBody(List.class);
 
         if (grouped == null || grouped.size() == 0) {
             LOG.info("No aggregated log messages, this is normal if camel aggregator has a batch timeout. Doing nothing.");
             return Collections.emptyList();
         }
 
-        // Pull the inbound messages from the exchanges
         List<Message> aggregatedList = grouped.stream()
+                .map(deh -> {
+                    Exchange copy = exchange.copy();
+                    DefaultExchangeHolder.unmarshal(copy, deh);
+                    return copy;
+                })
                 .map(Exchange::getIn)
                 .collect(Collectors.toList());
 
-        // And finally let the filtering component do its job, passing on a List of those messages we want to pass down
-        // the route.
         return new NotificationMessageDiscardFilter().process(aggregatedList);
     }
 }

@@ -22,8 +22,8 @@ package se.inera.intyg.webcert.notification_sender.notifications.routes;
 import org.apache.camel.LoggingLevel;
 import org.apache.camel.Predicate;
 import org.apache.camel.builder.PredicateBuilder;
+import org.apache.camel.component.leveldb.LevelDBAggregationRepository;
 import org.apache.camel.converter.jaxb.JaxbDataFormat;
-import org.apache.camel.processor.aggregate.GroupedExchangeAggregationStrategy;
 import org.apache.camel.spring.SpringRouteBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,6 +32,7 @@ import se.inera.intyg.common.support.modules.support.api.notification.HandelseTy
 import se.inera.intyg.common.support.modules.support.api.notification.SchemaVersion;
 import se.inera.intyg.webcert.common.common.Constants;
 import se.inera.intyg.webcert.common.sender.exception.TemporaryException;
+import se.inera.intyg.webcert.notification_sender.notifications.services.ArrayListAggregationStrategy;
 import se.riv.clinicalprocess.healthcond.certificate.certificatestatusupdateforcareresponder.v2.CertificateStatusUpdateForCareType;
 import se.riv.clinicalprocess.healthcond.certificate.types.v2.DatePeriodType;
 import se.riv.clinicalprocess.healthcond.certificate.types.v2.PartialDateType;
@@ -70,6 +71,8 @@ public class NotificationRouteBuilder extends SpringRouteBuilder {
 
         JaxbDataFormat jaxbMessageDataFormatV2 = initializeJaxbMessageDataFormatV2();
 
+        LevelDBAggregationRepository repo = new LevelDBAggregationRepository("repo1", "target/data/leveldb.dat");
+
         // Start for aggregation route. All notifications enter this route. Draft saved and signed for non fk7263
         // goes into an aggregation state where we once per minute perform filtering so only the newest ANDRAD per intygsId
         // OR a SIGNERAD are forwarded to the 'receiveNotificationRequestEndpoint' queue. The others are discarded.
@@ -87,10 +90,10 @@ public class NotificationRouteBuilder extends SpringRouteBuilder {
                 .when(directRoutingPredicate())
                     .to(notificationQueue)
                 .otherwise()
-                    .aggregate(new GroupedExchangeAggregationStrategy())
+                    .aggregate(new ArrayListAggregationStrategy())
                     .constant(true)
                     .completionInterval(batchAggregationTimeout)
-                    .forceCompletionOnStop()
+                    .aggregationRepository(repo)
                     .to("bean:notificationAggregator")
                     .split(body())
                     .to(notificationQueue).end()
