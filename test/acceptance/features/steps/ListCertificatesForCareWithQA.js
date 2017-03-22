@@ -34,7 +34,6 @@
                  throw (err);
              } else {
                  client.ListCertificatesForCareWithQA(body, function(err, result, resBody) {
-                     console.log(resBody);
                      if (err) {
                          throw (err);
                      } else {
@@ -66,20 +65,53 @@
          console.log(body);
          return sendListCertificatesForCareWithQA(body).then(function(result) {
              response = result;
+
+             //Spara svar för aktuellt intyg i responseIntyg variabel
+             response.list.item.forEach(function(element) {
+                 var intygID = element.intyg['intygs-id'].extension;
+                 if (intygID === intyg.id) {
+                     responseIntyg = element;
+                     console.log(JSON.stringify(responseIntyg));
+                 }
+             });
+
          });
      });
 
+     this.Then(/^ska responsen visa mottagna frågor totalt (\d+),ej besvarade (\d+),besvarade (\d+), hanterade (\d+)$/, function(totalt, ejBesvarade, besvarade, hanterade) {
+         var mf = responseIntyg.mottagnaFragor;
+         return Promise.all([
+             expect(totalt).to.equal(mf.totalt.toString()),
+             expect(ejBesvarade).to.equal(mf.ejBesvarade.toString()),
+             expect(besvarade).to.equal(mf.besvarade.toString()),
+             expect(hanterade).to.equal(mf.hanterade.toString())
+         ]);
+     });
 
-     this.Then(/^ska svaret innehålla intyget jag var inne på$/, function() {
+
+     this.Then(/^ska responsen visa skickade frågor totalt (\d+),ej besvarade (\d+),besvarade (\d+), hanterade (\d+)$/, function(totalt, ejBesvarade, besvarade, hanterade) {
+         var sf = responseIntyg.skickadeFragor;
+         return Promise.all([
+             expect(totalt).to.equal(sf.totalt.toString()),
+             expect(ejBesvarade).to.equal(sf.ejBesvarade.toString()),
+             expect(besvarade).to.equal(sf.besvarade.toString()),
+             expect(hanterade).to.equal(sf.hanterade.toString())
+         ]);
+     });
+
+
+
+
+     this.Then(/^ska svaret( inte)? innehålla intyget jag var inne på$/, function(inte) {
          var idn = [];
          response.list.item.forEach(function(element) {
              var intygID = element.intyg['intygs-id'].extension;
              idn.push(intygID);
-             if (intygID === intyg.id) {
-                 responseIntyg = element.intyg;
-             }
          });
-         return expect(idn).to.contain(intyg.id);
+         if (inte) {
+             return expect(idn).to.not.include(intyg.id);
+         }
+         return expect(idn).to.include(intyg.id);
      });
 
      this.Then(/^ska svaret endast innehålla intyg för utvald patient$/, function() {
@@ -98,6 +130,14 @@
              idPromises.push(expect(enhetID).to.contain(global.user.enhetId));
          });
          return Promise.all(idPromises);
+     });
+
+
+     this.Then(/^ska svaret visa intyghändelse "([^"]*)"$/, function(handelseKod) {
+         var handelser = responseIntyg.handelser.handelse.map(function(obj) {
+             return obj.handelsekod.code;
+         });
+         return expect(handelser).to.contain(handelseKod);
      });
 
 
