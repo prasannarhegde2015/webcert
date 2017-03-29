@@ -906,4 +906,11 @@
     </addColumn>
   </changeSet>
 
+  <changeSet id="44" author="kja">
+      <renameColumn columnDataType="boolean"
+          newColumnName="SCHEMA_VERSION_3"
+          oldColumnName="SCHEMA_VERSION_2"
+          tableName="INTEGRERADE_VARDENHETER"/>
+  </changeSet>
+
 </databaseChangeLog>
