@@ -94,16 +94,29 @@ gretty {
 
     def minified = System.properties['webcert.useMinifiedJavaScript'] ?: false
 
+//    jvmArgs = ["-Dcatalina.base=${buildDir}/catalina.base",
+//               "-Dspring.profiles.active=dev,caching-enabled",
+//               "-Dwebcert.resources.folder=${projectDir}/../src/main/resources",
+//               "-Dcredentials.file=${projectDir}/webcert-credentials.properties",
+//               "-Dwebcert.config.file=${projectDir}/webcert-dev.properties",
+//               "-Dwebcert.logback.file=${projectDir}/webcert-logback.xml",
+//               "-Dwebcert.useMinifiedJavaScript=${minified}",
+//               "-Dh2.tcp.port=9094",
+//               "-Dh2.web.port=9090",
+//               "-Djetty.port=9088"]
+
     jvmArgs = ["-Dcatalina.base=${buildDir}/catalina.base",
-               "-Dspring.profiles.active=dev,caching-enabled",
+               "-Dspring.profiles.active=dev,caching-enabled,wc-security-test",
+               "-Dwebcert.config.folder=/Users/eriklupander/intyg/webcert-konfiguration/sambi/",
                "-Dwebcert.resources.folder=${projectDir}/../src/main/resources",
-               "-Dcredentials.file=${projectDir}/webcert-credentials.properties",
-               "-Dwebcert.config.file=${projectDir}/webcert-dev.properties",
-               "-Dwebcert.logback.file=${projectDir}/webcert-logback.xml",
+               "-Dcredentials.file=/Users/eriklupander/intyg/webcert-konfiguration/sambi/credentials.properties",
+               "-Dwebcert.config.file=/Users/eriklupander/intyg/webcert-konfiguration/sambi/webcert.properties",
+               "-Dwebcert.logback.file=/Users/eriklupander/intyg/webcert-konfiguration/sambi/webcert-logback.xml",
                "-Dwebcert.useMinifiedJavaScript=${minified}",
                "-Dh2.tcp.port=9094",
                "-Dh2.web.port=9090",
-               "-Djetty.port=9088"]
+               "-Djetty.port=9088",
+               "-Dwebcert.stubs.port=9088"]
 
     extraResourceBase webappOutputDir
 }

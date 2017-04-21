@@ -434,17 +434,80 @@
           </bean>
           <!-- END IDENTITY PROVIDER BEAN FOR SITHS -->
 
+
+
+
+
+
+
+
+          <!-- START SERVICE PROVIDER BEAN FOR SAMBI -->
+          <bean class="org.springframework.security.saml.metadata.ExtendedMetadataDelegate">
+            <constructor-arg>
+              <bean class="org.opensaml.saml2.metadata.provider.FilesystemMetadataProvider">
+                <constructor-arg>
+                  <value type="java.io.File">${config.dir}/sp-sambi.xml</value>
+                </constructor-arg>
+                <property name="parserPool" ref="parserPool"/>
+              </bean>
+            </constructor-arg>
+            <property name="metadataTrustCheck" value="true"/>
+
+            <constructor-arg>
+              <bean class="org.springframework.security.saml.metadata.ExtendedMetadata">
+                <property name="alias" value="sambi"/>
+                <property name="local" value="true"/>
+                <property name="securityProfile" value="metaiop"/>
+                <property name="sslSecurityProfile" value="metaiop"/>
+                <property name="signMetadata" value="true"/>
+                <!-- The signingKey and encryptionKey refers to the _aliases_ of the key in the keystore defined in the keyManager bean -->
+                <property name="signingKey" value="${sambi.saml.keystore.alias}"/>
+                <property name="encryptionKey" value="${sambi.saml.keystore.alias}"/>
+                <property name="requireArtifactResolveSigned" value="true"/>
+                <property name="requireLogoutRequestSigned" value="false"/>
+                <property name="requireLogoutResponseSigned" value="false"/>
+              </bean>
+            </constructor-arg>
+          </bean>
+          <!--  END SERVICE PROVIDER BEAN FOR SAMBI -->
+
+          <!-- START IDENTITY PROVIDER BEAN FOR SAMBI -->
+          <bean class="org.springframework.security.saml.metadata.ExtendedMetadataDelegate">
+            <constructor-arg>
+              <bean class="org.opensaml.saml2.metadata.provider.FilesystemMetadataProvider">
+                <constructor-arg>
+                  <value type="java.io.File">${config.dir}/idp-sambi.xml</value>
+                </constructor-arg>
+                <property name="parserPool" ref="parserPool"/>
+              </bean>
+            </constructor-arg>
+            <constructor-arg>
+              <bean class="org.springframework.security.saml.metadata.ExtendedMetadata">
+                <property name="alias" value="sambi"/>
+              </bean>
+            </constructor-arg>
+
+            <property name="metadataTrustCheck" value="false"/>
+          </bean>
+          <!-- END IDENTITY PROVIDER BEAN FOR SAMBI -->
+
+
         </list>
       </constructor-arg>
       <property name="refreshCheckInterval" value="86400000"/>
 
       <!-- Setting SITHS as default login method to be redirected to when requesting protected resource. -->
       <!-- This value _must_ match the entityID specified in idp-sakerhetstjanst.xml.  -->
-      <property name="defaultIDP" value="${sakerhetstjanst.saml.idp.metadata.url}"/>
+      <!-- <property name="defaultIDP" value="${sakerhetstjanst.saml.idp.metadata.url}"/>  -->
+
 
       <!-- This makes sure the Sakerhetstjanst SP metadata is used by default -->
       <!-- This value _must_ match the entityID specified in sp-sakerhetstjanst.xml  -->
-      <property name="hostedSPName" value="${sakerhetstjanst.saml.entityId}"/>
+     <!-- <property name="hostedSPName" value="${sakerhetstjanst.saml.entityId}"/>       -->
+
+
+      <property name="defaultIDP" value="${sambi.saml.idp.metadata.url}"/>
+      <property name="hostedSPName" value="${sambi.saml.entityId}"/>
 
     </bean>
 

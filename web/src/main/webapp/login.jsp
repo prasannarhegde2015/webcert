@@ -37,6 +37,9 @@
       <a href="/saml/login/alias/defaultAlias?idp=<spring:eval expression="@webcertProps.getProperty('sakerhetstjanst.saml.idp.metadata.url')" />"
          class="btn btn-success" id="loginBtn">SITHS-kort</a>
 
+      <a href="/saml/login/alias/sambi?idp=<spring:eval expression="@webcertProps.getProperty('sambi.saml.idp.metadata.url')" />"
+         class="btn btn-success" id="loginBtn3">SAMBI</a>
+
       <a href="/saml/login/alias/eleg?idp=<spring:eval expression="@webcertProps.getProperty('cgi.funktionstjanster.saml.idp.metadata.url')" />"
          class="btn btn-success" id="loginBtn2" style="margin-left: 20px;">E-legitimation</a>
     </div>
